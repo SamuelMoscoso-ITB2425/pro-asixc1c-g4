@@ -8,5 +8,6 @@ Finalisimo
 ## INDICE
 - [INTRODUCIÓN](#introdución)
 - [Objetivos del proyecto](#objetivos-del-proyecto)
+- [1. Propuesta de CPD](./propuesta.md)
 
 
