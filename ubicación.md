@@ -54,7 +54,7 @@ Planos del edificio:
 
 # CLIMATIZACIÓN
 
-Para maneten un funcionamiento correcto de nuestra CPD la climatización han de estar estrictamente controlada, un desajuste de temperatura podria dañar gravemente el equipo, provocando unas graves perdidas economicas y un impacot ambiental negativo.
+Para maneten un funcionamiento correcto de nuestra CPD la climatización han de estar estrictamente controlada, un desajuste de temperatura podria dañar gravemente el equipo, provocando unas graves perdidas economicas y un impacto ambiental negativo.
 
 Para ello hemos de mantener nuestro CDP con un mínimo de 18ºC, una temperatura más baja incrementa el riesgo de cortocircuitos y corrosiones, y no superar los 27ºC, ya que puede sobrecalentar los servidores y reducir su vida util. 
 Manteniednonos dentro de ese rango garantizamos una estabilidad térmica y el optimo rendimiento de los equipos.
@@ -71,6 +71,9 @@ La humedad también es un factor importante a controlar. UN ahumedad menor a 40%
 |------------------|        
 | 40     |              
 | 60     | 
+
+
+También hay que tener en cuenta la calidad del aire en el entorno, al ser un espacio cerrado y sin ventanas hay que controlar la calidad de l aire segun el estándar ***SO 14644-1*** 
 
 
 # IDENTIFICACIÓN
