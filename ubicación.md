@@ -73,6 +73,22 @@ La humedad también es un factor importante a controlar. UN ahumedad menor a 40%
 | 60     | 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 También hay que tener en cuenta la calidad del aire en el entorno, al ser un espacio cerrado y sin ventanas hay que controlar la calidad de l aire segun el estándar ***SO 14644-1*** el cual define los niveles máximos permitidos de partículas en el aire en entornos controlados. 
 
 La Clase 8 es el mínimo recomendado para CPDs, ya que limita la cantidad de polvo y partículas en suspensión que pueden entrar en contacto con los equipos. 
@@ -85,6 +101,9 @@ Para poder garantizar la pureza del aire instalamos unos filtros HEPA:
 
 #### Filtros HEPA
 El primer paso esencial es garantizar que el aire que ingresa al CPD esté libre de contaminantes. Para ello, se emplean filtros HEPA, capaces de retener el **99,97%** de partículas de 0,3 micras o más. Estas partículas pueden incluir polvo fino, polen, bacterias o partículas de combustión, todas potencialmente dañinas para los equipos informáticos sensibles.
+
+![Funcionamiento](./hepa.jpg)
+
 
 > [!CAUTION]
 > Si el aire no se filtra correctamente desde el inicio, se rompe toda la cadena de limpieza, ya que las partículas circularían dentro del centro.
