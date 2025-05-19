@@ -73,6 +73,7 @@ La humedad también es un factor importante a controlar. UN ahumedad menor a 40%
 | 60     | 
 
 
+### ¿Como podemos controlar su temperatura?
 
 
 
@@ -85,8 +86,7 @@ La humedad también es un factor importante a controlar. UN ahumedad menor a 40%
 
 
 
-
-
+----------------------------------------------------------------
 
 
 También hay que tener en cuenta la calidad del aire en el entorno, al ser un espacio cerrado y sin ventanas hay que controlar la calidad de l aire segun el estándar ***SO 14644-1*** el cual define los niveles máximos permitidos de partículas en el aire en entornos controlados. 
