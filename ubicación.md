@@ -44,11 +44,11 @@ Dentro del edificio, el CPD se establece en la planta inferior por diversos fact
 
 Ubicación:
 
-![Ubicación](./ubi.png)
+                        ![Ubicación](./ubi.png)
 
 Planos del edificio:
 
-![Planos del edificio](./edificio.png)
+                       ![Planos del edificio](./edificio.png)
 
 
 
