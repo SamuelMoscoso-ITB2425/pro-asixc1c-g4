@@ -4,7 +4,7 @@
 ```
 Ubicado en Bilbao, el **Poligono Arasur** ofrece todo aquello necesario para poder establecer nuestro CPD:
 
-## 1. CONEXIÓN
+#### 1. CONEXIÓN
 - 📡 **Cruce de fibra de alta velocidad:** Conexiones de ultra baja latencia hacia Norteamérica y Europa del Norte.
 - 🌐 **Cable submarino Grace Hopper:** Refuerza la conectividad internacional entre Bilbao y Nueva York.
 - 🧭 Ubicación estratégica ideal para organizaciones que requieren enlaces globales rápidos y fiables.
