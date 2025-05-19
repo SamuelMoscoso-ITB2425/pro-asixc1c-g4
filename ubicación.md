@@ -4,9 +4,17 @@
 ```
 Ubicado en Bilbao, el **Poligono Arasur** ofrece todo aquello necesario para poder establecer nuestro CPD.
 
+    1. 
+    2. 
+    3. 
+    4. 
+    5. 
+    6. 
+
 Planos del edificio:
 
 ![Planos del edificio](./edificio.png)
+
 
 
 
