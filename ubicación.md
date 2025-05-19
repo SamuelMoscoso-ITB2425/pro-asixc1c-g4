@@ -73,7 +73,13 @@ La humedad también es un factor importante a controlar. UN ahumedad menor a 40%
 | 60     | 
 
 
-También hay que tener en cuenta la calidad del aire en el entorno, al ser un espacio cerrado y sin ventanas hay que controlar la calidad de l aire segun el estándar ***SO 14644-1*** 
+También hay que tener en cuenta la calidad del aire en el entorno, al ser un espacio cerrado y sin ventanas hay que controlar la calidad de l aire segun el estándar ***SO 14644-1*** el cual define los niveles máximos permitidos de partículas en el aire en entornos controlados. 
+
+La Clase 8 es el mínimo recomendado para CPDs, ya que limita la cantidad de polvo y partículas en suspensión que pueden entrar en contacto con los equipos. 
+Mantener el aire limpio evita la acumulación de polvo en los componentes, lo que reduce el riesgo de sobrecalentamiento y fallos mecánicos, y contribuye a la fiabilidad y durabilidad de la instalación.
+
+> [!NOTE]
+> El límite es de 3.520.000 partículas de 0,5 micras o más por metro cúbico de aire
 
 
 # IDENTIFICACIÓN
