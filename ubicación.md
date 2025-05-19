@@ -4,8 +4,8 @@
 ```
 Ubicado en Bilbao 
 
-
-![Planos del edificio](./edificio.png):
+Planos del edificio:
+![Planos del edificio]()./edificio.png)
 
 
 
