@@ -2,7 +2,7 @@
 ```
 42°42'01.1"N 2°54'42.7"
 ```
-Ubicado en Bilbao, el **Poligono Arasur** ofrece todo aquello necesario para poder establecer nuestro CPD.
+Ubicado en Bilbao, el **Poligono Arasur** ofrece todo aquello necesario para poder establecer nuestro CPD:
 
 1. CONEXIÓN
 - 📡 **Cruce de fibra de alta velocidad:** Conexiones de ultra baja latencia hacia Norteamérica y Europa del Norte.
@@ -10,11 +10,26 @@ Ubicado en Bilbao, el **Poligono Arasur** ofrece todo aquello necesario para pod
 - 🧭 Ubicación estratégica ideal para organizaciones que requieren enlaces globales rápidos y fiables.
 
 2. CERTIFICACIONES AMBIENTALES
-3. CLIMA
-4. SOSTENIBILIDAD
-5. SEGURIDAD
-6. INFRAESTRUCTURA
+- 🏅 **Certificación LEED Platinum:** El centro ADI Data Center Euskadi está diseñado bajo los estándares más altos de sostenibilidad.
+- 🏗️ Uso de prácticas de construcción ecológicas y fomento de energías renovables.
 
+3. CLIMA
+- 🌦️ **Clima templado y húmedo:** Reduce el consumo energético en refrigeración comparado con otras regiones más cálidas de España.
+
+4. SOSTENIBILIDAD
+ 🌱 **PUE (Power Usage Effectiveness) de 1.15:** Índice líder en eficiencia energética.
+- ☀️ **Adyacente a una planta solar de 135 MW:** Acceso directo a energía limpia y asequible.
+- 💧 **Sistema de refrigeración sin agua:** Conserva recursos hídricos y permite refrigeración eficiente hasta 200 kW por rack con refrigeración líquida.
+
+5. SEGURIDAD
+- 🔐 **Diseño Tier III:** Alta disponibilidad con estándares de redundancia N+1.
+- 📈 **Fiabilidad del 99.9999% (“six nines”)** para cargas críticas.
+- 👷‍♂️ Vigilancia continua, sistemas seguros de gestión e infraestructura robusta.
+
+6. INFRAESTRUCTURA
+- 🏢 **Campus de última generación:** Tres edificios de data center más uno administrativo, con más de 150,000 m² disponibles.
+- 🧱 **Primera fase:** 24,000 m² distribuidos en tres niveles con áreas especializadas para datos, administración y generación de energía.
+- ⚙️ **Escalabilidad:** Diseñado para expandirse conforme a la demanda y preparado para cargas de IA de alta densidad.
 
 Dentro del edificio, el CPD se establece en la planta inferior por diversos factores:
 
