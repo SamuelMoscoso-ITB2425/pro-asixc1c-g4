@@ -63,7 +63,6 @@ Manteniednonos dentro de ese rango garantizamos una estabilidad térmica y el op
 |------------------|
 | 18     | 27      |
 |--------|---------|
-      [Zona segura]
 
 
 # IDENTIFICACIÓN
