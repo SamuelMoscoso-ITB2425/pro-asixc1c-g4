@@ -2,11 +2,12 @@
 ```
 42°42'01.1"N 2°54'42.7"
 ```
-Ubicado en Bilbao 
+Ubicado en Bilbao, el **Poligono Arasur** ofrece todo aquello necesario para poder establecer nuestro CPD.
 
 Planos del edificio:
 
 ![Planos del edificio](./edificio.png)
+
 
 
 
