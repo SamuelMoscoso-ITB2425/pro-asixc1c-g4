@@ -12,7 +12,7 @@ Finalisimo
     - [Ubicación Física](#./ubicación.md)
     - [Infraestructura IT](#./infraestructura-it.md)
     - [Infraestructura Eléctrica](#./infraestructura-e.md)
-    - Seguridad(#./prevención.md)
+    - [Seguridad](#./prevención.md)
         - [Física](#./fisica.md)
         - [Lógica](#./lógica.md)
     - [Sostenibilidad](#./sos.md)
