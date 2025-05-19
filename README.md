@@ -3,7 +3,10 @@
 # INTRODUCIÓN
 Finalisimo
 
+# Objetivos del Proyecto 
 
 ## INDICE
-- [INTRODUCIÓN] (#introdución)
+- [INTRODUCIÓN](#introdución)
+- [Objetivos del proyecto](#objetivos-del-proyecto)
+
 
