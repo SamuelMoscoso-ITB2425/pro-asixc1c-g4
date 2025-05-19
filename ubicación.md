@@ -59,10 +59,18 @@ Para maneten un funcionamiento correcto de nuestra CPD la climatización han de 
 Para ello hemos de mantener nuestro CDP con un mínimo de 18ºC, una temperatura más baja incrementa el riesgo de cortocircuitos y corrosiones, y no superar los 27ºC, ya que puede sobrecalentar los servidores y reducir su vida util. 
 Manteniednonos dentro de ese rango garantizamos una estabilidad térmica y el optimo rendimiento de los equipos.
 
-| Temperatura (°C) |    | Humedad Relativa (%) |
-|------------------|    |----------------------|         
-| 18     |              | 40      |
-| 27     |              | 60      |
+
+| Temperatura (°C) |    
+|------------------|        
+| 18     |              
+| 27     |              
+
+La humedad también es un factor importante a controlar. UN ahumedad menor a 40% aumenta el riesgo de descaragas electroestáticas sin embargo una superiror a 60%  puede provocar una condensación y corrosión en los circuitos y conexiones. Por tanto es indispensable mantener este rango para proteger su integridad física y su funcionamiento.
+
+| Humedad Relativa (%) |
+|------------------|        
+| 40     |              
+| 60     | 
 
 
 # IDENTIFICACIÓN
