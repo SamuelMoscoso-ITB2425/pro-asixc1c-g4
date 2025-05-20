@@ -1,5 +1,8 @@
 # COMPONENTES
 
+### Servidores
+
+### Switches
 
 
 # PLANOS

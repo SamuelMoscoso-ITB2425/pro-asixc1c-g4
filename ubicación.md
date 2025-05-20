@@ -2,7 +2,7 @@
 ```
 42°42'01.1"N 2°54'42.7"
 ```
-Ubicado en Bilbao, el **Poligono Arasur** ofrece todo aquello necesario para poder establecer nuestro CPD:
+Ubicado en Bilbao, el [**Poligono Arasur**](https://arasur.es/) ofrece todo aquello necesario para poder establecer nuestro CPD:
 
 #### 1. CONEXIÓN
 - 📡 **Cruce de fibra de alta velocidad:** Conexiones de ultra baja latencia hacia Norteamérica y Europa del Norte.
@@ -138,9 +138,15 @@ De la misma manera que un suelo, un techo tecnico tambien ayuda y facilita al fu
 
 Otras caracteristicas que hemos tenido en cuenta en la estructura de la habitación es el [ruido](./ruido.md) que provocan los CPD, para solucionar este problema se han instalado unos [bafles acústicos absorbentes](./bafles.md) que insonorizan la sala.
 
+
+Para facilitar la pureza del aire se pintan las paredes de pintura plástica para ayudar en su limpieza.
+
+
+
 PLANOS:
 -
     ![PLANOS]()
 
 # RACKS
 
+Nuestro CPD cuenta con ...
