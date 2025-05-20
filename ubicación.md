@@ -2,10 +2,10 @@
 ```
 42°42'01.1"N 2°54'42.7"
 ```
-Ubicado en Bilbao, el [**Poligono Arasur**](https://arasur.es/) ofrece todo aquello necesario para poder establecer nuestro CPD:
+Ubicado en Bilbao, el [**Polígono Arasur**](https://arasur.es/) ofrece todo aquello necesario para poder establecer nuestro CPD:
 
 #### 1. CONEXIÓN
-- 📡 **Cruce de fibra de alta velocidad:** Conexiones de ultra baja latencia hacia Norteamérica y Europa del Norte.
+- 📡 **Cruce de fibra de alta velocidad:** Conexiones de ultrabaja latencia hacia Norteamérica y Europa del Norte.
 - 🌐 **Cable submarino Grace Hopper:** Refuerza la conectividad internacional entre Bilbao y Nueva York.
 - 🧭 Ubicación estratégica ideal para organizaciones que requieren enlaces globales rápidos y fiables.
 
@@ -39,7 +39,7 @@ Dentro del edificio, el CPD se establece en la planta inferior por diversos fact
 - **Evacuación y acceso de emergencias:** Estar en la planta baja facilita una evacuación más rápida en caso de emergencia y permite un acceso más directo para los servicios de emergencia.
 
 > [!TIP]
-> Evita paredes perimetrales para reducir el riesgos asociados a fenómenos meteorológicos, intrusiones o peligros externos.
+> Evita paredes perimetrales para reducir los riesgos asociados a fenómenos meteorológicos, intrusiones o peligros externos.
 
 
 Ubicación:
@@ -54,10 +54,10 @@ Planos del edificio:
 
 # CLIMATIZACIÓN
 
-Para maneten un funcionamiento correcto de nuestra CPD la climatización han de estar estrictamente controlada, un desajuste de temperatura podria dañar gravemente el equipo, provocando unas graves perdidas economicas y un impacto ambiental negativo.
+Para mantener un funcionamiento correcto de nuestra CPD, la climatización han de estar estrictamente controlada, un desajuste de temperatura podría dañar gravemente el equipo, provocando unas graves perdidas económicas y un impacto ambiental negativo.
 
-Para ello hemos de mantener nuestro CDP con un mínimo de 18ºC, una temperatura más baja incrementa el riesgo de cortocircuitos y corrosiones, y no superar los 27ºC, ya que puede sobrecalentar los servidores y reducir su vida util. 
-Manteniednonos dentro de ese rango garantizamos una estabilidad térmica y el optimo rendimiento de los equipos.
+Para ello hemos de mantener nuestro CDP con un mínimo de 18ºC, una temperatura más baja incrementa el riesgo de cortocircuitos y corrosiones, y no superar los 27ºC, ya que puede sobrecalentar los servidores y reducir su vida útil. 
+Manteniéndonos dentro de ese rango garantizamos una estabilidad térmica y el óptimo rendimiento de los equipos.
 
 
 | Temperatura (°C) |    
@@ -65,7 +65,7 @@ Manteniednonos dentro de ese rango garantizamos una estabilidad térmica y el op
 | 18     |              
 | 27     |              
 
-La humedad también es un factor importante a controlar. UN ahumedad menor a 40% aumenta el riesgo de descaragas electroestáticas sin embargo una superiror a 60%  puede provocar una condensación y corrosión en los circuitos y conexiones. Por tanto es indispensable mantener este rango para proteger su integridad física y su funcionamiento.
+La humedad también es un factor importante a controlar. Una humedad menor a 40% aumenta el riesgo de descargas electroestáticas, sin embargo, una superior a 60%  puede provocar una condensación y corrosión en los circuitos y conexiones. Por tanto, es indispensable mantener este rango para proteger su integridad física y su funcionamiento.
 
 | Humedad Relativa (%) |
 |------------------|        
@@ -73,14 +73,14 @@ La humedad también es un factor importante a controlar. UN ahumedad menor a 40%
 | 60     | 
 
 
-### ¿Como podemos controlar su temperatura?
+### ¿Cómo podemos controlar su temperatura?
 
 *PEQUEÑA EXPLICACION Y SE LLEVA A OTRO MANUEL CON MAS DATOS Y DETALLES*
-
+COMO DETECTAR EL LA TEMPERATRA DEL AIRE
 ----------------------------------------------------------------
 
 
-También hay que tener en cuenta la calidad del aire en el entorno, al ser un espacio cerrado y sin ventanas hay que controlar la calidad de l aire segun el estándar ***SO 14644-1*** el cual define los niveles máximos permitidos de partículas en el aire en entornos controlados. 
+También hay que tener en cuenta la calidad del aire en el entorno, al ser un espacio cerrado y sin ventanas hay que controlar la calidad del aire segÚn el estándar ***SO 14644-1*** el cual define los niveles máximos permitidos de partículas en el aire en entornos controlados. 
 
 La Clase 8 es el mínimo recomendado para CPDs, ya que limita la cantidad de polvo y partículas en suspensión que pueden entrar en contacto con los equipos. 
 Mantener el aire limpio evita la acumulación de polvo en los componentes, lo que reduce el riesgo de sobrecalentamiento y fallos mecánicos, y contribuye a la fiabilidad y durabilidad de la instalación.
@@ -105,7 +105,7 @@ Alguna de las medidas que hemos establecido son:
 
 - **Mapas** → Se evita incluir la ubicación del CPD en planos accesibles tanto para empleados como para el público general. 
 
-    Limitando el acceso de los planos y limitando a aquellos que son explicitamente necesarios reducimos las posibilidades de una filtración de seguridad.
+    Limitando el acceso de los planos y limitando a aquellos que son explícitamente necesarios reducimos las posibilidades de una filtración de seguridad.
 
 - **No señalización** → Una manera sencilla de eludir su reconocimiento es no utilizando señales donde indiquen donde se encuentra.
 
@@ -115,7 +115,7 @@ Alguna de las medidas que hemos establecido son:
 
 # TECHO Y SUELO
 
-En la sala hay una normativa a seguir donde se especifica la necesidad de instalar y asegurar un suelo tecnico que permita:
+En la sala hay una normativa a seguir donde se especifica la necesidad de instalar y asegurar un suelo técnico que permita:
 
 - **Gestionar el cableado** → El espacio bajo el suelo elevado (plénum) permite distribuir y organizar cables de red, fibra óptica y alimentación eléctrica de forma ordenada, segura y accesible. Así se evitan enredos y se facilita el mantenimiento o futuras ampliaciones.
 
@@ -128,7 +128,7 @@ En la sala hay una normativa a seguir donde se especifica la necesidad de instal
 - **Mantenimiento** → Los paneles modulares permiten acceder fácilmente a cualquier punto bajo el suelo para inspección, reparación o cambios, sin interrumpir la operación del CPD.
 
 
-De la misma manera que un suelo, un techo tecnico tambien ayuda y facilita al funcionamiento del CPD:
+De la misma manera que un suelo, un techo técnico también ayuda y facilita al funcionamiento del CPD:
 
 - **Mantenimiento** → Al igual que el suelo técnico, el techo modular permite acceder rápidamente a instalaciones superiores para reparaciones o ampliaciones.
 
@@ -136,7 +136,7 @@ De la misma manera que un suelo, un techo tecnico tambien ayuda y facilita al fu
 - **Soporte para Infraestructura** → El techo técnico permite instalar luminarias, sensores, sistemas antiincendios y bandejas de cableado aéreo, manteniendo todo organizado y accesible.
 
 
-Otras caracteristicas que hemos tenido en cuenta en la estructura de la habitación es el [ruido](./ruido.md) que provocan los CPD, para solucionar este problema se han instalado unos [bafles acústicos absorbentes](./bafles.md) que insonorizan la sala.
+Otras características que hemos tenido en cuenta en la estructura de la habitación es él [ruido](./ruido.md) que provocan los CPD, para solucionar este problema se han instalado unos [bafles acústicos absorbentes](./bafles.md) que insonorizan la sala.
 
 
 Para facilitar la pureza del aire se pintan las paredes de pintura plástica para ayudar en su limpieza.
