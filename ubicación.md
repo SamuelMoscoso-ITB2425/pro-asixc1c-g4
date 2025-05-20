@@ -19,7 +19,7 @@ Ubicado en Bilbao, el [**Polígono Arasur**](https://arasur.es/) ofrece todo aqu
 - 🌦️ **Clima templado y húmedo:** Reduce el consumo energético en refrigeración comparado con otras regiones más cálidas de España.
 
 #### 4. SOSTENIBILIDAD
- 🌱 **PUE (Power Usage Effectiveness) de 1.15:** Índice líder en eficiencia energética.
+- 🌱 **PUE (Power Usage Effectiveness) de 1.15:** Índice líder en eficiencia energética.
 - ☀️ **Adyacente a una planta solar de 135 MW:** Acceso directo a energía limpia y asequible.
 - 💧 **Sistema de refrigeración sin agua:** Conserva recursos hídricos y permite refrigeración eficiente hasta 200 kW por rack con refrigeración líquida.
 
@@ -89,9 +89,9 @@ Para poder llevar un control de la temperatura adecuada en la sala se han instal
 La distribución de los sensores a sido la siguiente: 
 - 3 sensores x 4 racks = 12 sensores.
     Cada rack tiene 3 sensores :
-        - 1 en la parte delantera/inferior (entrada de aire frío)
-        - 1 en la parte superior/frontal (entrada de aire frío)
-        - 1 en la parte trasera (escape de aire caliente)
+    - 1 en la parte delantera/inferior (entrada de aire frío)
+    - 1 en la parte superior/frontal (entrada de aire frío)
+    - 1 en la parte trasera (escape de aire caliente)
 
 - 2 sensores de ambiente.
 - 2 sensores para el suelo técnico. 
