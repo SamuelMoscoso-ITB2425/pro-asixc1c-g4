@@ -124,6 +124,8 @@ Alguna de las medidas que hemos establecido son:
 
     Tras pasar esta primera puerta, se accede a la puerta principal de CPD la cual cuenta  con unas medidas de seguridad que se detallarán más adelante.
 
+    ![FOTO]()
+
 - **Mapas** → Se evita incluir la ubicación del CPD en planos accesibles tanto para empleados como para el público general. 
 
     Limitando el acceso de los planos y limitando a aquellos que son explicitamente necesarios reducimos las posibilidades de una filtración de seguridad.
@@ -140,7 +142,9 @@ Alguna de las medidas que hemos establecido son:
 
 
 
-PLANOS
+PLANOS:
+-
+    ![PLANOS]()
 
 # RACKS
 
