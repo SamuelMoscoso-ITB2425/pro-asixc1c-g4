@@ -111,8 +111,7 @@ Para evitar que la temperatura se desequilibre hemos dispuesto de un sistema hib
 
 Este proceso [hibrido aire + agua](./hibrido.md) utiliza centrifugadores para, con el aire caliente, obtener aire frio y circuitos cerrados de agua para evitar su consumo en exceso.
 
-*PEQUEÑA EXPLICACION Y SE LLEVA A OTRO MANUEL CON MAS DATOS Y DETALLES*
-COMO DETECTAR EL LA TEMPERATRA DEL AIRE
+
 ----------------------------------------------------------------
 
 
@@ -147,9 +146,11 @@ Alguna de las medidas que hemos establecido son:
 
 
 # CABLEADO
+EXPLICAR LA DISTRIBUCIÓN DEL CABLEADO, EL TIPO, COMO LOS HEMOS DITRIBUIDO, DONDE ESTAN LAS TOAMS DE LUZ...
 
 
 # TECHO Y SUELO
+EXPLICAR MEJOR....
 
 En la sala hay una normativa a seguir donde se especifica la necesidad de instalar y asegurar un suelo técnico que permita:
 
@@ -185,4 +186,7 @@ PLANOS:
 
 # RACKS
 
-Nuestro CPD cuenta con ...
+Nuestro CPD cuenta con 4 
+
+
+

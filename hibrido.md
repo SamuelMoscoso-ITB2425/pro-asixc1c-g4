@@ -5,9 +5,6 @@
 
 
 
-
-
-
 ![Proceso](./Coolin.png)
 
 ## Ventajas
@@ -15,6 +12,8 @@
 
 ## Insalación
 
+
 ### Distribución
+
 
 ### Precios
