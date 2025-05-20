@@ -89,6 +89,7 @@ Para poder llevar un control de la temperatura adecuada en la sala se han instal
 La distribución de los sensores a sido la siguiente: 
 - 3 sensores x 4 racks = 12 sensores.
 
+
     Cada rack tiene 3 sensores :
     - 1 en la parte delantera/inferior (entrada de aire frío)
     - 1 en la parte superior/frontal (entrada de aire frío)
