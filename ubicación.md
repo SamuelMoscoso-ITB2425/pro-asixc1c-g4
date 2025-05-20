@@ -9,6 +9,8 @@ Ubicado en Bilbao, el [**Polígono Arasur**](https://arasur.es/) ofrece todo aqu
 - 🌐 **Cable submarino Grace Hopper:** Refuerza la conectividad internacional entre Bilbao y Nueva York.
 - 🧭 Ubicación estratégica ideal para organizaciones que requieren enlaces globales rápidos y fiables.
 
+![Cable Grace Hopper](./Grace%20Hopper.jpg)
+
 #### 2. CERTIFICACIONES AMBIENTALES
 - 🏅 **Certificación LEED Platinum:** El centro ADI Data Center Euskadi está diseñado bajo los estándares más altos de sostenibilidad.
 - 🏗️ Uso de prácticas de construcción ecológicas y fomento de energías renovables.
