@@ -1,4 +1,4 @@
-#### Filtros HEPA
+# Filtros HEPA
 El primer paso esencial es garantizar que el aire que ingresa al CPD esté libre de contaminantes. Para ello, se emplean filtros HEPA, capaces de retener el **99,97%** de partículas de 0,3 micras o más. Estas partículas pueden incluir polvo fino, polen, bacterias o partículas de combustión, todas potencialmente dañinas para los equipos informáticos sensibles.
 
 ![Funcionamiento](./hepa.jpg)

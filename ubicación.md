@@ -115,9 +115,28 @@ Alguna de las medidas que hemos establecido son:
 
 # TECHO Y SUELO
 
+En la sala hay una normativa a seguir donde se especifica la necesidad de instalar y asegurar un suelo tecnico que permita:
+
+- **Gestionar el cableado** → El espacio bajo el suelo elevado (plénum) permite distribuir y organizar cables de red, fibra óptica y alimentación eléctrica de forma ordenada, segura y accesible. Así se evitan enredos y se facilita el mantenimiento o futuras ampliaciones.
 
 
+- **Distribución** → El suelo técnico permite canalizar aire frío directamente hacia los racks o equipos, optimizando la refrigeración y reduciendo puntos calientes. Esto es clave para mantener la temperatura adecuada y la eficiencia energética.
 
+
+- **Soporte estructural** → Está diseñado para soportar el peso de racks de alta densidad, UPS, y otros equipos pesados, garantizando la seguridad y estabilidad del CPD.
+
+- **Mantenimiento** → Los paneles modulares permiten acceder fácilmente a cualquier punto bajo el suelo para inspección, reparación o cambios, sin interrumpir la operación del CPD.
+
+
+De la misma manera que un suelo, un techo tecnico tambien ayuda y facilita al funcionamiento del CPD:
+
+- **Mantenimiento** → Al igual que el suelo técnico, el techo modular permite acceder rápidamente a instalaciones superiores para reparaciones o ampliaciones.
+
+
+- **Soporte para Infraestructura** → El techo técnico permite instalar luminarias, sensores, sistemas antiincendios y bandejas de cableado aéreo, manteniendo todo organizado y accesible.
+
+
+Otras caracteristicas que hemos tenido en cuenta en la estructura de la habitación es el [ruido](./ruido.md) que provocan los CPD, para solucionar este problema se han instalado unos [bafles acústicos absorbentes](./bafles.md) que insonorizan la sala.
 
 PLANOS:
 -
