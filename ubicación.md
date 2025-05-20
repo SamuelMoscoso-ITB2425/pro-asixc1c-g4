@@ -46,11 +46,18 @@ Ubicación:
 
 ![Ubicación](./ubi.png)
 
-Planos del edificio:
+
+Planos:
 
 ![Planos del edificio](./edificio.png)
 
+![Planos de la planta](./planta.png)
 
+![Planos de la sala](./sala.png)
+
+![Visualización 3D](./3D.png)
+
+En estas imagenes podemos observar la distribución de nuestro CDP...
 
 # CLIMATIZACIÓN
 
@@ -74,6 +81,31 @@ La humedad también es un factor importante a controlar. Una humedad menor a 40%
 
 
 ### ¿Cómo podemos controlar su temperatura?
+
+Para poder llevar un control de la temperatura adecuada en la sala se han instalado sensores en los racks, en el suelo y techo técnico y cerca de equipos con un uso más grando y exigente. 
+
+La distribución de los sensores a sido la siguiente: 
+- 3 sensores x 4 racks = 12 sensores.
+    Cada rack tiene 3 sensores :
+        - 1 en la parte delantera/inferior (entrada de aire frío)
+        - 1 en la parte superior/frontal (entrada de aire frío)
+        - 1 en la parte trasera (escape de aire caliente)
+
+- 2 sensores de ambiente.
+- 2 sensores para el suelo técnico. 
+- 2 sensores en el techo técnico.
+
+En total utilizamos 18 sensores de temperatura, para los rack hemos utilizado sensores [**Platinum Resistance Temperature Detectors (RTDs)**](./rtd.md) ya que se requiere una mayor precisión y una respuesta más rápida. 
+Aquellos colocados para controlar la temperatura de la habitación, al no necesitar una precisión tan elevada, los termistores son la mejor opción. 
+
+Estos sensores estan expuestos a una monitorización constante, si un sensor detecta una temperatura fuera del rango se activan los avisos.
+
+Hemos establecido dos tipos de avisos, uno por SMS, email, SNMP , a los responsables en el turno de trabajo. 
+Y a más una alarma visual que salta al excederse los limites y alerta a los trabajadores.
+
+Para evitar que la temperatura se desequilibre hemos dispuesto de un sistema hibrido de enfriamiento de la sala a través de procesos sostenibles que intentan evitar el desperdicio de los recursos naturales y la contaminación del medio ambiente.
+
+Este proceso [hibrido aire + agua](./hibrido.md) utiliza centrifugadores para, con el aire caliente, obtener aire frio y circuitos cerrados de agua para evitar su consumo en exceso.
 
 *PEQUEÑA EXPLICACION Y SE LLEVA A OTRO MANUEL CON MAS DATOS Y DETALLES*
 COMO DETECTAR EL LA TEMPERATRA DEL AIRE
