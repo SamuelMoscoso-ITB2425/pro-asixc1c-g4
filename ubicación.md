@@ -122,11 +122,11 @@ Alguna de las medidas que hemos establecido son:
 
 - **Doble Puerta** → En la sala donde se encuentra el CPD en sustituyendo una puerta tradicional asegurada, instalamos una puerta integrada en la pared, es decir, una puerta oculta que dificulta su detección a personas que no conocen previamente su ubicación.
 
-Tras pasar esta primera puerta, se accede a la puerta principal de CPD la cual cuenta  con unas medidas de seguridad que se detallarán más adelante.
+    Tras pasar esta primera puerta, se accede a la puerta principal de CPD la cual cuenta  con unas medidas de seguridad que se detallarán más adelante.
 
 - **Mapas** → Se evita incluir la ubicación del CPD en planos accesibles tanto para empleados como para el público general. 
 
-Limitando el acceso de los planos y limitando a aquellos que son explicitamente necesarios reducimos las posibilidades de una filtración de seguridad.
+    Limitando el acceso de los planos y limitando a aquellos que son explicitamente necesarios reducimos las posibilidades de una filtración de seguridad.
 
 - **No señalización** → Una manera sencilla de eludir su reconocimiento es no utilizando señales donde indiquen donde se encuentra.
 
