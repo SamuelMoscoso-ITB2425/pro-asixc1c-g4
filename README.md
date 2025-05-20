@@ -12,7 +12,7 @@ Este documento recoge todo el proceso, desde la planificación hasta la implemen
 
 ## INDICE
 - [INTRODUCIÓN](#introdución)
-- 1. [Propuesta de CPD](./Propuesta.md)
+1. [Propuesta de CPD](./Propuesta.md)
     - [Ubicación Física](./ubicación.md)
     - [Infraestructura IT](./infraestructura-it.md)
     - [Infraestructura Eléctrica](./infraestructura-e.md)
@@ -21,6 +21,6 @@ Este documento recoge todo el proceso, desde la planificación hasta la implemen
         - [Lógica](./lógica.md)
     - [Sostenibilidad](./sos.md)
 
-- 2. []
+2. []
 
 
