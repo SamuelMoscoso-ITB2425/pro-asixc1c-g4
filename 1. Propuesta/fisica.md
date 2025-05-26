@@ -10,10 +10,6 @@ Sin embargo, ninguna medida de seguridad es poca por lo que hemos establecido me
 
 # ACCESO
 
-
-
-
- 
  [Plan de continuidad ](./plan.md)
 # VIDEOVIGILÁNCIA
 
