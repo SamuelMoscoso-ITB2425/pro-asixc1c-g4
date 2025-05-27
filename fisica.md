@@ -142,6 +142,7 @@ Precio = 5.000 €
 *Los detectores iónicos, al contener material radiactivo (Americio-241) se aconseja no utilizarlos. Un buen sustituto son los detectores de aspiración, más sensibles y sin riesgo.*
 
 A más tenemos instalados otros 2 detectores termicos distribuidos por las salas por si se provoca un indencio en otra area. 
+
 **5. Central de detección y gestión**
 
 La función de una central de detencción y gestió es recibir, procesar y gestionar todas las señales provenientes de los diferentes detectores (humo, aspiración, térmicos, llamas, etc.), así como de pulsadores manuales, y coordinar la activación de alarmas y sistemas de extinción automáticos
