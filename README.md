@@ -13,7 +13,7 @@ Este documento recoge todo el proceso, desde la planificación hasta la implemen
 ## INDICE
 - [INTRODUCIÓN](#introdución)
 - [1. Propuesta de CPD](../Propuesta.md)
-    - [Ubicación Física](../ubicación.md)
+    - [Ubicación Física](../../ubicación.md)
     - [Infraestructura IT](../infraestructura-it.md)
     - [Infraestructura Eléctrica](../infraestructura-e.md)
     - [Seguridad](../prevención.md)
