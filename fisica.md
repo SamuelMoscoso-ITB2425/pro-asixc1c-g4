@@ -42,6 +42,7 @@ Después para la camara panorámica tenemos:
 - Visión nocturna y PoE
 
 Su precio ronda los 1.000 € 
+
 ![Camara](c.jpg)
 
 Sumando estas cámaras también tenemos controlada las otras areas del edificio.(11)
@@ -137,6 +138,7 @@ Modelo : Spectrex SharpEye 40/40L
 Precio = 5.000 € 
 
 ![Según su detección](./fire.png)
+
 *Los detectores iónicos, al contener material radiactivo (Americio-241) se aconseja no utilizarlos. Un buen sustituto son los detectores de aspiración, más sensibles y sin riesgo.*
 
 A más tenemos instalados otros 2 detectores termicos distribuidos por las salas por si se provoca un indencio en otra area. 
