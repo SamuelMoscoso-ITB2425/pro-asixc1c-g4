@@ -25,14 +25,14 @@ Conectadas las **24 horas del dia los 7 dias** de la semana y monitorizadas cons
 
 Hemos optado por el siguiente modelo de camara para las esquinas:
 
-**Axis M3058-PLVE (12 MP, 360°, PoE)**
-- Resolución Full HD (1920 × 1080 píxeles)
-- Visión nocturna por infrarrojos hasta 30 m
-- Carcasa antivandálica y resistente a exteriores (IP67, IK10)
-- Ángulo de visión 100º
-- Alimentación PoE (un solo cable para datos y energía)
+**Hikvision DS-2CD2543G0-IWS**
+- Resolución 4 MP	
+- Visión nocturna por infrarrojos hasta 10m
+- Resistente al agua, polvo y vandalismo, ideal para entornos exigentes como CPD
 
 Precio entre 60-120 € 
+
+![Camara](ca.jpg)
 
 Después para la camara panorámica tenemos: 
 
@@ -42,6 +42,7 @@ Después para la camara panorámica tenemos:
 - Visión nocturna y PoE
 
 Su precio ronda los 1.000 € 
+![Camara](c.jpg)
 
 Sumando estas cámaras también tenemos controlada las otras areas del edificio.(11)
 Otras salas en el interior: 6 cámaras
@@ -94,10 +95,20 @@ Entre un 10% y un 15% de los incendios pueden ser contenidos en esta etapa si la
 
 Hay diferentes tipos de detectores que nos informan cuando hay algun peligro o desequilibrio en el funcionamineto normal de nuestros CPD. 
 
-Nuestra empresa tiene establecidos 4 detectores de humos que mandan la informaciona a un acentral de derección y gestión ubucada en la sal de control.
+Nuestra empresa tiene establecidos 4 detectores de humos, en la CPD, que mandan la informaciona a un acentral de detección y gestión ubicada en la sal de control.
 
-1.  Detector de aspiración
-2. Detectores puntuales de humo ópticos
+**1.  Detector de aspiración**
+
+Funcionan mediante una red de tubos que aspira aire de la sala y lo analiza en una cámara láser extremadamente sensible, capaz de identificar partículas de humo mucho antes de que sean visibles o detectables por detectores convencionales
+
+Modelo: FAAST FLEX
+
+![FAAST FLEX](./fas.png)
+
+Precio: 1.000 € aprox 
+
+**2. Detectores puntuales de humo ópticos**
+
 Detectan la particulas de humo visibles, adecuado para la fase de desarrollo inicial del incendio.
 
 Modelo : Notifier FSP-85
@@ -105,10 +116,18 @@ Modelo : Notifier FSP-85
 ![Notifier FSP-85](./f.jpg)
 
 Precio = 60-70 € 
-3. Detectores térmicos
+**3. Detectores térmicos**
 
+Son dispositivos diseñados para detectar incendios a través del aumento de temperatura en el ambiente, en lugar de humo. Son especialmente útiles en zonas donde pueden existir partículas en suspensión, polvo o gases que dificultan la detección por humo, y en espacios técnicos como falsos suelos o techos de CPD.
 
-4. Detectores de llamas (IR/UV)
+Modelo: Detector Multi-Térmico Analógico NSC FT
+
+![ Detector Multi-Térmico Analógico NSC FT](./multi.jpg)
+
+Precio:  35 € y 60 € 
+
+**4. Detectores de llamas (IR/UV)**
+
 Detecta la radiación ultravioleta/infrarroja de las llamas, actuando en la fase de combustión abierta.
 
 Modelo : Spectrex SharpEye 40/40L
@@ -117,19 +136,59 @@ Modelo : Spectrex SharpEye 40/40L
 
 Precio = 5.000 € 
 
-5. Central de detección y gestión
-
-
-
-
 ![Según su detección](./fire.png)
 *Los detectores iónicos, al contener material radiactivo (Americio-241) se aconseja no utilizarlos. Un buen sustituto son los detectores de aspiración, más sensibles y sin riesgo.*
+
+A más tenemos instalados otros 2 detectores termicos distribuidos por las salas por si se provoca un indencio en otra area. 
+**5. Central de detección y gestión**
+
+La función de una central de detencción y gestió es recibir, procesar y gestionar todas las señales provenientes de los diferentes detectores (humo, aspiración, térmicos, llamas, etc.), así como de pulsadores manuales, y coordinar la activación de alarmas y sistemas de extinción automáticos
+
+#### ¿Para que sirve?
+- Recepción y procesamiento de señales: Recoge en tiempo real la información de todos los sensores instalados en el CPD.
+
+- Activación de alarmas: Si se detecta una condición de incendio, activa alarmas acústicas y visuales para alertar al personal.
+
+- Activación automática de extinción: Puede enviar la orden de disparo a los sistemas de extinción (gases limpios, agua nebulizada, etc.) para sofocar el fuego de forma inmediata.
+
+- Supervisión y control: Permite monitorizar el estado de todos los dispositivos conectados y detectar averías o desconexiones.
+
+- Registro de eventos: Guarda un historial de todas las alarmas, activaciones y fallos para análisis posterior y cumplimiento normativo.
+
+- Comunicación con sistemas externos: Puede enviar señales a sistemas de gestión de edificios (BMS), centrales receptoras de alarma o servicios de emergencia.
+
+Nosotros tenemos instalada en nuestra sala de seguridaad una  **Notifier AM-8200**:
+
+- Capacidad: Hasta 4 lazos (bucle) y más de 500 dispositivos por lazo
+
+- Pantalla: LCD gráfica para visualización de eventos y estado del sistema
+
+- Comunicación: Módulos de comunicación TCP/IP, RS-485, integración con BMS
+
+Funciones avanzadas:
+
+- Identificación exacta del detector que ha activado la alarma
+
+- Gestión de zonas y prioridades
+
+- Programación de retardos y escenarios personalizados
+
+- Salidas para control de sistemas de extinción, ventilación y puertas cortafuegos
+
+- Alimentación: Red eléctrica con baterías de respaldo
+
+Precio: Rondando los 2.000€ 
+
+![Central Notifier AM-8200](./not.jpg)
+
 ### Extinción
 
-Esta debe ser la etapa que debemos evitar ya que 
+La extinción automática de incendios es la última línea de defensa en la protección de un centro de datos. Si el fuego alcanza este punto, significa que han fallado las etapas previas de prevención y detección temprana, lo que puede poner en riesgo la continuidad del negocio y la integridad de los datos. Por eso, la prioridad debe ser siempre la prevención (mantenimiento, orden y materiales adecuados) y la detección ultra temprana (sistemas de aspiración, detectores ópticos y térmicos). Sin embargo, contar con un sistema de extinción eficiente es imprescindible para minimizar daños si se produce un incendio real.
 
-[Peligros](./alerta.md)
-[Clean Agent](./fire.md)
+Nuestro sistema de extinción: [**Novec 1230 (FK-5-1-12)**](./fire.md)
+
+![Novec 1230 (FK-5-1-12).](./sist.jpg)
+
 
 
 ### Vias de avacuación
@@ -142,7 +201,36 @@ La comunicación es otro factor clave, si un incendio empeza en una zona apartad
 
 A parte de la alarma creemos que un un sistema de megafonia también ayuda a  la organización.
 
+![Planos de evacuación](./)
 
-# RIESGOS NATURALES / 
+# RIESGOS NATURALES  
+
+Aunque la seguridad frente a incendios y accesos no autorizados es prioritaria, en la protección de nuestro CPD también hemos considerado los riesgos derivados de catástrofes naturales, ya que pueden afectar gravemente la continuidad operativa y la integridad de los datos.
+
+### Identificación y gestión de riesgos naturales
+
+Al planificar la ubicación y el diseño de nuestro CPD, se realizó un análisis exhaustivo de los principales riesgos naturales presentes en la zona y se tomaron medidas específicas para contrarrestarlos:
+
+**Inundaciones**:
+
+Se evitó situar el CPD en sótanos o en lugares con riego d inundacióon. Nuestra CPD cuenta con sistemas de drenaje y sellado profesional en todas las entradas de cables y tuberías para evitar la entrada de agua. Además, los racks están elevados del suelo y se han instalado sensores de fugas de agua en puntos críticos.
+
+**Terremotos**:
+
+El edificio y la sala del CPD han sido construidos siguiendo normativas sismorresistentes, con estructuras reforzadas y racks anclados para minimizar el riesgo de caída o desplazamiento en caso de movimiento sísmico. También hemos buscado establecernos en una zona con baja actividad sísmica con daños mínimos o inexistentes..
+
+**Fenómenos meteorológicos extremos (tormentas, vientos fuertes, granizo)**:
+
+
+La infraestructura cuenta con refuerzos estructurales y ventanas protegidas. Se dispone de doble acometida eléctrica, SAI y generadores para garantizar el suministro eléctrico ante cortes provocados por tormentas.
+
+**Incendios forestales y humo exterior**:
+
+
+Los sistemas de climatización cuentan con filtros de aire de alta eficiencia para evitar la entrada de humo o partículas dañinas.
+
+**Temperatura y humedad extremas**:
+
+El CPD está equipado con sistemas redundantes de climatización y control ambiental, así como sensores de temperatura y humedad que permiten una monitorización continua y alertan ante cualquier desviación de los parámetros seguros.
 
 # ELEMENTOS VISUALES
