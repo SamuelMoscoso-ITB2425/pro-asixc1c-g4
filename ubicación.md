@@ -136,7 +136,7 @@ Alguna de las medidas que hemos establecido son:
 
     Tras pasar esta primera puerta, se accede a la puerta principal de CPD la cual cuenta  con unas medidas de seguridad que se detallarán más adelante.
 
-    ![FOTO]()
+    ![FOTO](./)
 
 - **Mapas** → Se evita incluir la ubicación del CPD en planos accesibles tanto para empleados como para el público general. 
 
@@ -180,11 +180,28 @@ PLANOS:
 
 # RACKS
 
-Nuestro CPD cuenta con 4 
+En nuestra sala técnica, contamos con una infraestructura organizada y escalable basada en racks estándar. La instalación actual está compuesta por 4 racks de 42U, distribuidos por función y capacidad.
 
+En los racks 1 y 2, su función esta enfocada a las comunicaciones, es decir estan destinados exclusivamente a equipamiento de red. Incluimos: 
 
+    - Switches
+    - Routers
+    - Firewalls
+    - Patch panel
+    - SAIS
+    - PDU
 
+Los otros dos racks estan destinados a la instalación de los servidores, contando unicamente con los servidores y los mismos sistemas de alimentación para su funcinamiento:
 
+    - Patch panel
+    - SAIS
+    - PDU
+
+Los racks que hemos dispuesto disponen de las siguientes dimensiones:
+
+- Altura: 42U (1,99 metros)
+- Ancho: 0,60 metros
+- Profundidad: 1,20 metros
 
 
 
