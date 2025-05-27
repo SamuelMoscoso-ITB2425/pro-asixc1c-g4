@@ -42,7 +42,7 @@ Este documento recoge todo el proceso, desde la planificación hasta la implemen
     - [Legislación](./ley.md)
 
 - [4. Sostenibilidad](./sosteni.md)
-    - [Pisada Ecológica](./eco.md)
+    - [Pisada Ecológica](./sosteni.md/#Cálculo de la Huella Ecológica)
     - [Consumo Energético](./consum.md)
     - [Propuestas](./propu.md)
 
