@@ -36,5 +36,5 @@ Racks de servidores:
 
 Autonomía estimada: 18 minutos bajo carga máxima, suficiente para permitir el arranque de generadores o el apagado controlado de los sistemas en caso de corte prolongado.
 
-> [!NOTA] 
+> [!NOTE] 
 > La autonomía real depende de la carga conectada y el estado de las baterías. Es recomendable revisar periódicamente el sistema y ajustar la capacidad de los SAIs si se amplía la infraestructura 
