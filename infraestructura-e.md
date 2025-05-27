@@ -38,4 +38,3 @@ Autonomía estimada: 18 minutos bajo carga máxima, suficiente para permitir el 
 
 > [!NOTA] 
 > : La autonomía real depende de la carga conectada y el estado de las baterías. Es recomendable revisar periódicamente el sistema y ajustar la capacidad de los SAIs si se amplía la infraestructura 
-> [!NOTA]
