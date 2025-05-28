@@ -28,7 +28,7 @@ El agua calentada regresa al chiller, donde se enfría nuevamente mediante un ci
  El sistema cambia automáticamente entre refrigeración por aire y por agua según la demanda térmica y las condiciones ambientales. Esto permite operar en modo seco para ahorrar agua y en modo húmedo cuando se requiere mayor capacidad de enfriamiento
 
 
-![Proceso](./Coolin.png)
+![Proceso](./imagenes/Coolin.png)
 
 ## Seguridad
 

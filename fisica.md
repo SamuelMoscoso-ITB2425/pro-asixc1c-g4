@@ -23,7 +23,7 @@ El primer punto de acceso físico a la sala se realiza mediante una tarjeta iden
 
 Cada uso de la tarjeta queda registrado en el sistema de gestión de accesos, indicando usuario, hora y puerta utilizada.
 
-![HID iCLASS SE R40*](./tar.jpeg)
+![HID iCLASS SE R40*](./imagenes/tar.jpeg)
 
 ### Control biométrico
 
@@ -31,9 +31,9 @@ En zonas de máxima sensibilidad, como la entrada principal de la sala de servid
 
 El acceso solo es posible si se validan ambos factores: tarjeta y biometría, garantizando así que solo el personal autorizado y presente físicamente pueda entrar.
 
-![Suprema BioEntry W2](./su.jpeg)
+![Suprema BioEntry W2](./imagenes/su.jpeg)
 
-![Hikvision DS-K1T671MF](./car.jpeg)
+![Hikvision DS-K1T671MF](./imagenes/car.jpeg)
 
 ### Puerta de seguridad y esclusa
 
@@ -95,7 +95,7 @@ Hemos optado por el siguiente modelo de camara para las esquinas:
 
 Precio entre 60-120 € 
 
-![Camara](ca.jpg)
+![Camara](./imagenes/ca.jpg)
 
 Después para la camara panorámica tenemos: 
 
@@ -106,7 +106,7 @@ Después para la camara panorámica tenemos:
 
 Su precio ronda los 1.000 € 
 
-![Camara](c.jpg)
+![Camara](./imagenes/c.jpg)
 
 Sumando estas cámaras también tenemos controlada las otras areas del edificio.(11)
 Otras salas en el interior: 6 cámaras
@@ -167,7 +167,7 @@ Funcionan mediante una red de tubos que aspira aire de la sala y lo analiza en u
 
 Modelo: FAAST FLEX
 
-![FAAST FLEX](./fas.png)
+![FAAST FLEX](./imagenes/fas.png)
 
 Precio: 1.000 € aprox 
 
@@ -177,7 +177,7 @@ Detectan la particulas de humo visibles, adecuado para la fase de desarrollo ini
 
 Modelo : Notifier FSP-85
 
-![Notifier FSP-85](./f.jpg)
+![Notifier FSP-85](./imagenes/f.jpg)
 
 Precio = 60-70 € 
 **3. Detectores térmicos**
@@ -186,7 +186,7 @@ Son dispositivos diseñados para detectar incendios a través del aumento de tem
 
 Modelo: Detector Multi-Térmico Analógico NSC FT
 
-![ Detector Multi-Térmico Analógico NSC FT](./multi.jpg)
+![ Detector Multi-Térmico Analógico NSC FT](./imagenes/multi.jpg)
 
 Precio:  35 € y 60 € 
 
@@ -196,11 +196,11 @@ Detecta la radiación ultravioleta/infrarroja de las llamas, actuando en la fase
 
 Modelo : Spectrex SharpEye 40/40L
 
-![Spectrex SharpEye 40/40L](./s.jpeg)
+![Spectrex SharpEye 40/40L](./imagenes/s.jpeg)
 
 Precio = 5.000 € 
 
-![Según su detección](./fire.png)
+![Según su detección](./imagenes/fire.png)
 
 *Los detectores iónicos, al contener material radiactivo (Americio-241) se aconseja no utilizarlos. Un buen sustituto son los detectores de aspiración, más sensibles y sin riesgo.*
 
@@ -245,7 +245,7 @@ Funciones avanzadas:
 
 Precio: Rondando los 2.000€ 
 
-![Central Notifier AM-8200](./not.jpg)
+![Central Notifier AM-8200](./imagenes/not.jpg)
 
 ### Extinción
 
@@ -253,7 +253,7 @@ La extinción automática de incendios es la última línea de defensa en la pro
 
 Nuestro sistema de extinción: [**Novec 1230 (FK-5-1-12)**](./fire.md)
 
-![Novec 1230 (FK-5-1-12).](./sist.jpg)
+![Novec 1230 (FK-5-1-12).](./imagenes/sist.jpg)
 
 
 

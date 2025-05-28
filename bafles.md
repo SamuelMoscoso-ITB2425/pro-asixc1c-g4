@@ -1,7 +1,7 @@
 ## ¿Que és?
 Los bafles acústicos son paneles suspendidos verticalmente desde el techo, fabricados con materiales altamente absorbentes (como lana mineral o PET reciclado). Su función principal es captar y disipar las ondas sonoras producidas por servidores, sistemas de refrigeración y ventilación, reduciendo así la reverberación y el eco dentro de la sala. Al estar distribuidos estratégicamente, los bafles absorben el ruido en ambas caras, logrando un ambiente acústicamente controlado incluso en espacios con techos altos y superficies duras
 
-![Bafles](./ba.jpg)
+![Bafles](./imagenes/ba.jpg)
 
 ## ¿Por qué utilizarlo?
 

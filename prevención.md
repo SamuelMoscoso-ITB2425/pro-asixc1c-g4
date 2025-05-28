@@ -1,4 +1,4 @@
-# MEDIDAS DE PREVENCIÓN DE [RRLL](./rrll.md)
+# MEDIDAS DE PREVENCIÓN DE RRLL
 
 Como empresa comprometida con la seguridad y el bienestar de nuestro equipo y la protección de nuestra infraestructura, aplicamos un conjunto de medidas generales de prevención en nuestro CPD que garantizan un entorno de trabajo seguro, eficiente y saludable. A continuación, detallamos cómo implementamos estas acciones y su importancia en nuestro día a día:
 
