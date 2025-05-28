@@ -4,25 +4,24 @@ En nuestro compromiso con la sostenibilidad y la eficiencia, hemos adoptado una 
 
 
 # CONSUMO
-Para poder optimizar el consumo de agua hemos estableciso una serie de estrategias que perimtan utilizar los recursos de un manera más optima.
 
-
-Primero  
+Para optimizar el consumo de recursos, especialmente agua y energía, hemos implementado diversas estrategias que nos permiten utilizar los recursos de manera más eficiente y responsable. Apostamos por sistemas híbridos de refrigeración (aire y líquido) que se adaptan dinámicamente a la demanda térmica y evitan el uso innecesario de agua en periodos de baja carga.
 
 
 ### ODS
 - ODS 7: Energía asequible y no contaminante
-
 - ODS 9: Industria, innovación e infraestructura
-
 - ODS 12: Producción y consumo responsables
+
 # ENERGIA VERDE
 
-Actualmente las energias sostenibles son capaces de proporcionar grandes cantidades de energia de manera eficiente.
+España es líder mundial en producción de energía fotovoltaica, y aprovechamos esta ventaja instalando paneles solares que cubren una parte significativa del consumo eléctrico del CPD. Además, estamos integrados en una microgrid local que combina energía solar y otras fuentes renovables, y utilizamos generadores de emergencia alimentados con biocombustible (HVO) para reducir aún más nuestra huella de carbono.
 
-Aprovehcando que España es pinoera mundial en produccion de energia fotovolcaica 
 
 ### ODS
+- ODS 7: Energía asequible y no contaminante
+- ODS 13: Acción por el clima
+- ODS 11: Ciudades y comunidades sostenibles
 
 # CABLEADO
 El uso de suelos técnicos y falsos techos nos permite optimizar el recorrido del cableado, reduciendo la longitud de cables entre un 20% y un 30%.
@@ -45,6 +44,8 @@ El diseño de pasillos fríos y calientes, optimizado mediante simulaciones CFD,
 
 # PARADA DE EQUIPOS
 
+Implementamos políticas de auto-escalado y apagado automático de servidores y switches en periodos de baja demanda, lo que permite reducir el consumo energético y prolongar la vida útil de los equipos. Los sistemas de alimentación inteligente (SAIs y PDUs) monitorizan y desconectan equipos inactivos, evitando el desperdicio energético.
+
 
 ### ODS
 - ODS 7: Energía asequible y no contaminante
@@ -52,6 +53,7 @@ El diseño de pasillos fríos y calientes, optimizado mediante simulaciones CFD,
 
 # BAJO CONSUMO
 
+La elección de hardware eficiente es clave: utilizamos servidores HP DL380 Gen10 y switches Cisco Nexus optimizados para bajo consumo, junto con iluminación LED en todas las áreas técnicas. Además, la virtualización de servidores nos permite consolidar cargas de trabajo y reducir el número de equipos físicos necesarios.
 
 ### ODS
 - ODS 7: Energía asequible y no contaminante
