@@ -21,7 +21,7 @@ Este documento recoge todo el proceso, desde la planificación hasta la implemen
         - [Lógica](./lógica.md)
     - [Sostenibilidad](./sos.md)
     - [Instalación](./install.md)
-        - [](./1.md)
+        - [Web](./1.md)
         - [](./2.md)
         - [](./3.md)
         - [](./4.md)
