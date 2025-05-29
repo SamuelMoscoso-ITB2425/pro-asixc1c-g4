@@ -52,7 +52,7 @@ En este documento, se describe el proceso de implementación de un servidor de s
          }
        }
        ```
-       ![Imagen de edición del archivo de configuración](../videop/6.png)
+       ![Imagen de edición del archivo de configuración](./6.png)
 
 > **💡 Nota:**  
 > Asegúrate de que la configuración de RTMP coincida con los requisitos de tu streaming. Verifica el puerto `listen` (1935) y otros ajustes para evitar problemas de conectividad.
@@ -62,7 +62,7 @@ En este documento, se describe el proceso de implementación de un servidor de s
      sudo systemctl restart nginx
      sudo systemctl enable nginx
      ```
-     ![Imagen de reinicio de Nginx](../videop/4.png)
+     ![Imagen de configuración de la instancia](./4.png)
 
    - Abrí los puertos necesarios:
      ```bash
@@ -70,8 +70,7 @@ En este documento, se describe el proceso de implementación de un servidor de s
      sudo ufw allow 1935/tcp
      sudo ufw enable
      ```
-     ![Imagen de configuración de puertos](../videop/1.png)
-
+     ![Imagen de configuración de la instancia](./1.png)
 > **💡 Nota:**  
 > Antes de configurar el fichero, verifica que tiene la línea `load_module modules/ngx_rtmp_module.so;` y también verifica que las reglas del firewall se hayan aplicado correctamente y que los puertos necesarios estén abiertos para el acceso externo.
 
@@ -82,12 +81,11 @@ En este documento, se describe el proceso de implementación de un servidor de s
      ```bash
      scp -i nuevo_key.pem test.mp4 ubuntu@ec2-public-ip:/home/ubuntu/
      ```
-     ![Imagen de subida de archivo](../videop/11.png)
+     ![Imagen de configuración de la instancia](./11.png)
 
-     ![Imagen de configuración de puertos](../videop/5.png)
+     ![Imagen de configuración de la instancia](./5.png)
 
-   - Comprobación de imagen desde AWS:  
-     ![Imagen de comprobación desde AWS](../videop/12.png)
+  ![Imagen de configuración de la instancia](./12.png)
 
 > **💡 Nota:**  
 > Reemplaza `ec2-public-ip` con la dirección IP pública real de tu instancia AWS EC2. Asegúrate de que la ruta del archivo y los permisos sean correctos.
@@ -109,13 +107,15 @@ En este documento, se describe el proceso de implementación de un servidor de s
      ```bash
      ffmpeg -re -i test.mp4 -c copy -f flv rtmp://localhost/live/stream
      ```
-     ![Imagen de prueba del stream](../videop/7.png)
+     ![Imagen de prueba del stream](./7.png)
 
    - Para comprobar, abrimos VLC y ponemos nuestra URL `rtmp://localhost/live/stream`:  
-     ![Imagen de configuración de VLC](../videop/10.png)
+     ![Imagen de configuración de VLC](./10.png)
 
-     ![Imagen de configuración de VLC](../videop/8.png)
+     ![Imagen de configuración de VLC](./8.png)
 
+     ![Imagen de configuración de VLC](./13.png)
+     
 > **💡 Nota:**  
 > Reemplaza `localhost` con la dirección IP pública de tu instancia AWS EC2 si estás probando desde una máquina remota. Asegúrate de que el comando FFmpeg coincida con los requisitos de tu streaming.
 
@@ -124,7 +124,7 @@ En este documento, se describe el proceso de implementación de un servidor de s
 ## Monitorización y pruebas
 
 - Utilicé VLC estático para monitorización:  
-  ![Imagen de monitorización estática](../videop/9.png)
+  ![Imagen de monitorización estática](./9.png)
 
 ## Enlace a Video
   
