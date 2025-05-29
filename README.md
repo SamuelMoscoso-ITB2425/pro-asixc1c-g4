@@ -22,7 +22,7 @@ Este documento recoge todo el proceso, desde la planificación hasta la implemen
     - [Sostenibilidad](./sos.md)
     - [Instalación](./install.md)
         - [Web](./1.md)
-        - [](./2.md)
+        - [CMS](./2.md)
         - [](./3.md)
         - [](./4.md)
 
