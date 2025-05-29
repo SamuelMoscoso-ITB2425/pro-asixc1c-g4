@@ -11,3 +11,8 @@ Nuestra base de datos se compone de tres tablas principales: empleados, departam
 
 ![Diagrama]()
 
+
+Codigo_d = hacer referncia a la clave identificativa de departamento
+Codigo_n = hacer referncia a la clave identificativa de grupo_nivell
+
+
