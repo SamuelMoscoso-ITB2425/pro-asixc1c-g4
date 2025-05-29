@@ -65,10 +65,10 @@ sudo /usr/pgadmin4/bin/setup-web.sh
 ```
 ![Install](./imagenes/Base/Conf_web.png)
 
-A
+
 ![Install](./imagenes/Base/web.png)
 
+7. Nos metermos al pgAdmin4 mediante la ip publica de la instacia:
+![Install] (./imagenes/Base/Ip.png)
 
-
-PONER LO DE LOS ROLES Y TODO ESO Y EXPLICAR UN POCO
-
+![Install] (./imagenes/Base/PI.png)
