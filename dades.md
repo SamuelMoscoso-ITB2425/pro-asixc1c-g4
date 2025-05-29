@@ -69,6 +69,21 @@ sudo /usr/pgadmin4/bin/setup-web.sh
 ![Install](./imagenes/Base/web.png)
 
 7. Nos metermos al pgAdmin4 mediante la ip publica de la instacia:
+
 ![Install] (./imagenes/Base/Ip.png)
 
 ![Install] (./imagenes/Base/PI.png)
+
+8. Añadiremos un servidor dandole a: 
+
+![Install] (./imagenes/Base/server.png)
+
+![Install] (./imagenes/Base/nombre.png)
+
+![Install] (./imagenes/Base/local.png)
+
+9. Una vez ya dentro crearemos las tablas, crearemos los usuarios y definiremos los roles que tendran:
+```bash
+Creacion de usuarios
+```
+![Install] (./imagenes/Base/base.png)
