@@ -24,17 +24,11 @@ Este documento recoge todo el proceso, desde la planificación hasta la implemen
         - [Web](./1.md)
         - [CMS](./2.md)
         - [Chat](./3.md)
-        - [](./4.md)
+        - [DNS](./4.md)
 
 - [2. Implantación de Sistemas de audio i vídeo](./cpd.md)
     - [Audio](./audio.md)
-        - [Instalación](./insta.md)
-        - [Comporvación](./compra.md)
     - [Vídeo](./video.md)
-        - [Instalación](./insta2.md)
-        - [Comporvación](./compra2.md)
-    - [Ancho de banda](./banda.md)
-    - [Problemas](./error.md)
 
 - [3. Base de Datos](./base.md)
     - [Relaciones](./relacion.md)
