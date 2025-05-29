@@ -1,19 +1,10 @@
 # Proceso de instalación
 
-1. Instalamos PostgreSQL desde los repositorios oficiales:
-```bash
-sudo apt install -y postgresql-common
-```
-![Install]()
-```bash
-sudo /usr/share/postgresql-common/pgdg/apt.postgresql.org.sh
-```
-![Install]()
-
+1. Instalamos PostgreSQL:
 ```bash
 sudo apt install -y postgresql
 ```
-![Install]()
+![Install](./imagenes/Base/Insta.png)
 
 
 2. Configuramos el PostgreSQL para unirse mediante pgadmin4 via web:
