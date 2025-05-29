@@ -7,10 +7,73 @@ EL poligono donde nos encontramos ya cuenta con uns medidas de seguridad propias
 
 Sin embargo, ninguna medida de seguridad es poca por lo que hemos establecido medidas propias de la empresa para garantizar la máxima seguridad y reducir cualquier daño posible:
 
-# ACCESO
- EXPLICAR LAS DIFERENTES CAPAS DE SEGURIDAD QUE NOS ENCONTRASMOS COMO EN UN ALINEA DE TIEMPO... 
+# ACCESO AL CPD
+En nuestro CPD, el acceso a la sala principal está protegido mediante un sistema de seguridad multicapa que combina tecnología, procedimientos estrictos y una política de acceso basada en la mínima necesidad.
 
- [Plan de continuidad ](./plan.md)
+## Capas y Procedimiento de Acceso
+### Identificación previa y autorización
+
+Todo el personal que requiera acceso debe estar previamente registrado en el sistema de seguridad y contar con la formación específica en riesgos y protocolos del CPD.
+
+La autorización se revisa periódicamente y se retira inmediatamente en caso de cambio de funciones o finalización de la relación laboral.
+
+### Tarjeta identificativa RFID
+
+El primer punto de acceso físico a la sala se realiza mediante una tarjeta identificativa RFID personalizada. Hemos instalado lectores ***HID iCLASS SE R40***, compatibles con tarjetas inteligentes y llaveros, que permiten un control preciso y rápido.
+
+Cada uso de la tarjeta queda registrado en el sistema de gestión de accesos, indicando usuario, hora y puerta utilizada.
+
+![HID iCLASS SE R40*](./imagenes/tar.jpeg)
+
+### Control biométrico
+
+En zonas de máxima sensibilidad, como la entrada principal de la sala de servidores, hemos incorporado lectores biométricos ***Suprema BioEntry W2*** (huella dactilar) y, en puntos críticos, terminales de reconocimiento facial ***Hikvision DS-K1T671MF***.
+
+El acceso solo es posible si se validan ambos factores: tarjeta y biometría, garantizando así que solo el personal autorizado y presente físicamente pueda entrar.
+
+![Suprema BioEntry W2](./imagenes/su.jpeg)
+
+![Hikvision DS-K1T671MF](./imagenes/car.jpeg)
+
+### Puerta de seguridad y esclusa
+
+La entrada a la sala CPD está equipada con una puerta de seguridad de doble hoja, con cerradura electromagnética y sensor de apertura, que solo se desbloquea tras la validación exitosa de ambos sistemas.
+
+En horarios de baja actividad, se activa un modo esclusa: solo puede entrar una persona a la vez, evitando el “tailgating” (entrada no autorizada tras otra persona).
+
+
+### Registro y monitorización en tiempo real
+
+Todos los accesos quedan registrados en la plataforma de gestión centralizada (Genetec Security Center), que permite la monitorización en tiempo real y la generación de alertas automáticas ante cualquier intento de acceso no autorizado o anomalía.
+
+El sistema está integrado con la videovigilancia: cada acceso activa la grabación de las cámaras cercanas, asociando vídeo y registro de acceso para una trazabilidad completa.
+
+
+### Acceso para visitas y técnicos externos
+
+Las visitas o técnicos de mantenimiento externos solo pueden acceder bajo la supervisión directa de personal propio, tras haber sido registrados y autorizados temporalmente en el sistema.
+
+Se emiten tarjetas de acceso temporales y se limita el acceso solo a las zonas necesarias, quedando todo el proceso documentado.
+
+## Armarios y Racks Cerrados
+
+La protección física de los componentes más críticos dentro del CPD es igual de rigurosa que la de la sala en su conjunto. Por ello, cada armario y rack de servidores, almacenamiento y comunicaciones está equipado con sistemas de cierre electrónico o biométrico independientes.
+
+#### Tipos de Cerraduras y Modelos
+
+**Cerraduras electrónicas con teclado y RFID**:
+
+Hemos instalado cerraduras inteligentes EMKA eCam, que permiten la apertura mediante código PIN, tarjeta RFID o control remoto desde la central de seguridad. Estas cerraduras registran cada apertura y cierre, asociando la acción al usuario autorizado.
+
+**Cerraduras biométricas**:
+
+En los racks que almacenan datos especialmente sensibles (copias de seguridad, datos personales, etc.), utilizamos cerraduras Suprema BioLite N2, que requieren huella dactilar para su apertura.
+
+**Sensores de apertura y alarmas**:
+
+Todos los armarios están equipados con sensores de apertura conectados al sistema de gestión central. Si se detecta una apertura fuera de procedimiento o en horario no autorizado, se activa una alarma y se notifica automáticamente al equipo de seguridad.
+
+
 # VIDEOVIGILÁNCIA
 
 Nuestro edificio cuenta con diversas camras de videovigilancia para proporcionar la mayor seguridad posible.
@@ -32,7 +95,7 @@ Hemos optado por el siguiente modelo de camara para las esquinas:
 
 Precio entre 60-120 € 
 
-![Camara](ca.jpg)
+![Camara](./imagenes/ca.jpg)
 
 Después para la camara panorámica tenemos: 
 
@@ -43,7 +106,7 @@ Después para la camara panorámica tenemos:
 
 Su precio ronda los 1.000 € 
 
-![Camara](c.jpg)
+![Camara](./imagenes/c.jpg)
 
 Sumando estas cámaras también tenemos controlada las otras areas del edificio.(11)
 Otras salas en el interior: 6 cámaras
@@ -85,7 +148,7 @@ Realizar inspecciones periódicas y mantenimiento de todos los sistemas eléctri
 Con los sensores de temperatura llevamos un registr y control de la temperatura, mantenarla baja evita el sobrecalentamiento de los equipos reduciendo asi el riesgo de incendio. 
 
 - Materiales y compartimentación:
-Es importante evitar los materiales inflamables dentro del CPD. Construyendo paredes incombustibles, con resistencia al fuego pueden actuar como barrera contra el humo, agua, fuego... También se han utilizado [placas de yeso](./yeso.md) en las pardes, suelos y techos.
+Es importante evitar los materiales inflamables dentro del CPD. Construyendo paredes incombustibles, con resistencia al fuego pueden actuar como barrera contra el humo, agua, fuego... También se han utilizado placas de yeso en las pardes, suelos y techos.
 
 - Sistemas de reducción de oxígeno (LOX/Nitrógeno):
 Estos sistemas mantienen el nivel de oxígeno por debajo del umbral necesario para la combustión, pero seguro para las personas. Utilizan nitrógeno, que es abundante, no tóxico y no deja residuos, proporcionando protección continua y sostenible.
@@ -104,7 +167,7 @@ Funcionan mediante una red de tubos que aspira aire de la sala y lo analiza en u
 
 Modelo: FAAST FLEX
 
-![FAAST FLEX](./fas.png)
+![FAAST FLEX](./imagenes/fas.png)
 
 Precio: 1.000 € aprox 
 
@@ -114,7 +177,7 @@ Detectan la particulas de humo visibles, adecuado para la fase de desarrollo ini
 
 Modelo : Notifier FSP-85
 
-![Notifier FSP-85](./f.jpg)
+![Notifier FSP-85](./imagenes/f.jpg)
 
 Precio = 60-70 € 
 **3. Detectores térmicos**
@@ -123,7 +186,7 @@ Son dispositivos diseñados para detectar incendios a través del aumento de tem
 
 Modelo: Detector Multi-Térmico Analógico NSC FT
 
-![ Detector Multi-Térmico Analógico NSC FT](./multi.jpg)
+![ Detector Multi-Térmico Analógico NSC FT](./imagenes/multi.jpg)
 
 Precio:  35 € y 60 € 
 
@@ -133,11 +196,11 @@ Detecta la radiación ultravioleta/infrarroja de las llamas, actuando en la fase
 
 Modelo : Spectrex SharpEye 40/40L
 
-![Spectrex SharpEye 40/40L](./s.jpeg)
+![Spectrex SharpEye 40/40L](./imagenes/s.jpeg)
 
 Precio = 5.000 € 
 
-![Según su detección](./fire.png)
+![Según su detección](./imagenes/fire.png)
 
 *Los detectores iónicos, al contener material radiactivo (Americio-241) se aconseja no utilizarlos. Un buen sustituto son los detectores de aspiración, más sensibles y sin riesgo.*
 
@@ -182,7 +245,7 @@ Funciones avanzadas:
 
 Precio: Rondando los 2.000€ 
 
-![Central Notifier AM-8200](./not.jpg)
+![Central Notifier AM-8200](./imagenes/not.jpg)
 
 ### Extinción
 
@@ -190,7 +253,7 @@ La extinción automática de incendios es la última línea de defensa en la pro
 
 Nuestro sistema de extinción: [**Novec 1230 (FK-5-1-12)**](./fire.md)
 
-![Novec 1230 (FK-5-1-12).](./sist.jpg)
+![Novec 1230 (FK-5-1-12).](./imagenes/sist.jpg)
 
 
 

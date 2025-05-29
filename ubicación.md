@@ -9,7 +9,7 @@ Ubicado en Bilbao, el [**Polígono Arasur**](https://arasur.es/) ofrece todo aqu
 - 🌐 **Cable submarino Grace Hopper:** Refuerza la conectividad internacional entre Bilbao y Nueva York.
 - 🧭 Ubicación estratégica ideal para organizaciones que requieren enlaces globales rápidos y fiables.
 
-![Cable Grace Hopper](./Grace%20Hopper.jpg)
+![Cable Grace Hopper](./imagenes/Grace%20Hopper.jpg)
 
 #### 2. CERTIFICACIONES AMBIENTALES
 - 🏅 **Certificación LEED Platinum:** El centro ADI Data Center Euskadi está diseñado bajo los estándares más altos de sostenibilidad.
@@ -46,18 +46,18 @@ Dentro del edificio, el CPD se establece en la planta inferior por diversos fact
 
 Ubicación:
 
-![Ubicación](./ubi.png)
+![Ubicación](./imagenes/ubi.png)
 
 
 Planos:
 
-![Planos del edificio](./edificio.png)
+![Planos del edificio](./imagenes/edificio.png)
 
-![Planos de la planta](./planta.png)
+![Planos de la planta](./imagenes/planta.png)
 
-![Planos de la sala](./sala.png)
+![Planos de la sala](./imagenes/sala.png)
 
-![Visualización 3D](./3D.png)
+![Visualización 3D](./imagenes/3D.png)
 
 En estas imagenes podemos observar la distribución de nuestro CDP...
 
@@ -146,26 +146,86 @@ Alguna de las medidas que hemos establecido son:
 
 
 # CABLEADO
-EXPLICAR LA DISTRIBUCIÓN DEL CABLEADO, EL TIPO, COMO LOS HEMOS DITRIBUIDO, DONDE ESTAN LAS TOMAS DE LUZ...
+### Conexión y Filtrado de Tráfico
+
+Conectaremos el router que tenemos en la sala de empleados a los firewall de nuestros racks de comunicación. Todo el tráfico pasará primero por el firewall para que este filtre el tráfico y así evitar ataques o infiltraciones a nuestro CPD.
+
+Para tener algo de redundancia y maximizar el ancho de banda conectaremos uno de los firewall con el otro firewall mediante un cable de fibra óptica del puerto HA al HA del otro dispositivo y los pondremos en modo active-active. Esto lo que hará es que los dos procesen el tráfico y que no lo haga uno solo; si uno falla, el otro toma el 100 % del tráfico automáticamente, y las conexiones activas no se pierden.
+
+A continuación, conectaremos el firewall del puerto 37 al 36 del switch.
+
+### Segmentación y Organización de Red
+
+Configuraremos el router para tener diferentes VLANs y separar el tráfico de los empleados con el de nuestro CPD.
+
+Después de haber filtrado el tráfico de la red para los switches de nuestro CPD, conectaremos este a los puertos permanentes 1-8 del patch panel. A su vez, haremos lo mismo con los patch panel de los servidores; podemos conectar cada servidor a 2 puertos diferentes gracias a que la tarjeta de red que tienen dispone de dos puertos. Para obtener redundancia por parte de los switches por si alguna falla, conectaremos los dos switches al mismo servidor.
+
+Para diferenciar los cables conectados en el patch panel escogemos un color en concreto para cada dispositivo, poner una codificación alfanumérica en cada puerto para saber qué dispositivo se encuentra conectado o también está la posibilidad de hacer las dos al mismo tiempo.
+
+### Alimentación y Redundancia Eléctrica
+
+La corriente que recibirán los SAIS/UPS será de corriente normal. A su vez, los UPS/SAIS de uno de cada uno de los dos tipos de racks que tenemos recibirán energía alterna proporcionada por paneles solares.
+
+Para que a los racks les llegue la energía alterna que conectan nuestros paneles solares Longi Hi-MO 5 400W al controlador de carga, primero tendremos que unir los ramales en el combiner box. Para la salida de este, los + pasarán por sus fusibles y luego se unirán a una barra colectora principal; los - se unen a una barra colectora, luego se conectarán al controlador de carga mediante un cable + 6 AWG al + del controlador y del negativo lo mismo.
+
+A continuación, conectaremos el controlador de carga a las baterías mediante cables 1/0 AWG del positivo al positivo y del negativo al negativo. Instalaremos un fusible clase T en el lado positivo más cercano a la batería.
+
+Para conectar las baterías al inversor híbrido, tendremos que conectar los polos positivo y negativo a su busbar correspondiente por cables USE-2 2/0 AWG. Luego llevamos un cable + al breaker DC 125 para después conectarlo al + del inversor; los - irán directamente al inversor.
+
+Conectaremos el inversor al ATS Generic Smart Transfer Switch (RXSW200A3) por cable THHN 10 AWG a la fuente 2, ya que este será la opción por si el 1 falla. Para finalizar, conectaremos el ATS por el puerto de salida a la entrada IEC 309 de los UPS/SAIS mediante un cable THHN 10 AWG.
+
+Para la fuente principal de alimentación de los UPS/SAIS, conectaremos al cuadro eléctrico principal un breaker de 32A y a este le conectaremos el cable THHN 10 AWG a la fuente 1 del ATS.
+
+Conectaremos el inversor híbrido a la red y lo pondremos en modo Solar First y ajuste de umbrales para que la red cargue las baterías si están a menos de 30%. Esto lo hacemos por si no hay suficiente luz, el inversor cargará las baterías para que estas tengan siempre carga por si ocurre algún fallo. Para conectar el inversor híbrido al cuadro eléctrico, este tendrá que tener primero un breaker magnetotérmico; después conectaremos el cuadro eléctrico a la entrada AC-IN del inversor mediante un cable 6 AWG.
+
+El inversor de energía irá dentro de un gabinete NEMA 3R por estar en el exterior y evitar daños por lluvias.
+
+El cableado del ATS a los UPS/SAIS contaría como cableado vertical (hay que preguntar si este cableado también hay que tenerlo en cuenta).
 
 # TECHO Y SUELO
-EXPLICAR MEJOR....
+En la sala del CPD existe una normativa específica que exige la instalación y correcto aseguramiento de un suelo técnico. Este tipo de suelo elevado es fundamental para el funcionamiento seguro, eficiente y flexible del centro de datos, y ofrece múltiples ventajas:
 
-En la sala hay una normativa a seguir donde se especifica la necesidad de instalar y asegurar un suelo técnico que permita:
+## Suelo
+### 1. Gestión y Organización del Cableado
 
-- **Gestionar el cableado** → El espacio bajo el suelo elevado (plénum) permite distribuir y organizar cables de red, fibra óptica y alimentación eléctrica de forma ordenada, segura y accesible. Así se evitan enredos y se facilita el mantenimiento o futuras ampliaciones.
+El espacio bajo el suelo técnico (plénum) permite distribuir y organizar de manera ordenada todos los cables de red, fibra óptica y alimentación eléctrica.
 
-- **Distribución** → El suelo técnico permite canalizar aire frío directamente hacia los racks o equipos, optimizando la refrigeración y reduciendo puntos calientes. Esto es clave para mantener la temperatura adecuada y la eficiencia energética.
+**Ventajas**:
+- Se evitan enredos y cruces peligrosos de cables.
+- Se reduce el riesgo de accidentes o interferencias electromagnéticas.
+- Facilita el acceso para mantenimiento, inspección o futuras ampliaciones, ya que los técnicos pueden localizar y modificar fácilmente cualquier tramo de cableado sin interrumpir la operativa del CPD.
+- Permite la identificación y separación clara entre cableado de datos, energía y sistemas críticos, cumpliendo con las normativas de seguridad y buenas prácticas TI.
 
+### 2. Distribución de Aire y Tuberías de Refrigeración
+El suelo técnico no solo sirve para el cableado, sino que también permite canalizar aire frío directamente hacia los racks y equipos a través de rejillas o difusores instalados en los paneles.
 
-- **Soporte estructural** → Está diseñado para soportar el peso de racks de alta densidad, UPS, y otros equipos pesados, garantizando la seguridad y estabilidad del CPD.
+**Ventajas**:
+ -Optimiza la refrigeración, asegurando que el aire frío llegue de forma eficiente a los puntos de mayor demanda térmica.
+ Ayuda a evitar la formación de puntos calientes, lo que es esencial para mantener la temperatura adecuada y garantizar la eficiencia energética.
+- Además, bajo el suelo hemos insalado tuberías aisladas para la circulación de agua fría o refrigerante, necesarias en sistemas de refrigeración líquida (chillers o CRAH). Estas tuberías están protegidas y accesibles para su revisión o reparación, minimizando riesgos de fugas o daños accidentales.
+  
+### 3. Soporte Estructural
+El suelo técnico está diseñado y certificado para soportar grandes cargas, incluyendo racks de alta densidad, sistemas UPS, baterías y otros equipos pesados.
 
-- **Mantenimiento** → Los paneles modulares permiten acceder fácilmente a cualquier punto bajo el suelo para inspección, reparación o cambios, sin interrumpir la operación del CPD.
+**Ventajas**:
+- Garantiza la seguridad y estabilidad de la infraestructura.
+- Permite distribuir el peso de forma uniforme, evitando daños en la estructura original del edificio.
 
+### 4. Facilidad de Mantenimiento
+Los paneles modulares del suelo técnico se pueden levantar individualmente, permitiendo acceder rápidamente a cualquier punto bajo el suelo para inspección, reparación o cambios de cableado, tuberías o sensores.
 
+**Ventajas**:
+- Se pueden realizar intervenciones sin interrumpir la operación del CPD.
+- Reduce los tiempos de parada y facilita la adaptación a nuevas necesidades tecnológicas.
+
+## Techo Suspendido
 De la misma manera que un suelo, un techo suspendido también ayuda y facilita al funcionamiento del CPD:
 
-- **Mantenimiento** → Al igual que el suelo técnico, el techo modular permite acceder rápidamente a instalaciones superiores para reparaciones o ampliaciones.
+Permite ocultar y organizar cableados superiores, bandejas de fibra óptica, conductos de ventilación y sistemas de detección de incendios.
+
+Facilita el acceso rápido para tareas de mantenimiento, ampliaciones o instalación de nuevos sistemas.
+
+Mejora la estética y la limpieza del entorno, contribuyendo a un ambiente más controlado y profesional.
 
 
 Otras características que hemos tenido en cuenta en la estructura de la habitación es él [ruido](./ruido.md) que provocan los CPD, para solucionar este problema se han instalado unos [bafles acústicos absorbentes](./bafles.md) que insonorizan la sala.
