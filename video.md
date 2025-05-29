@@ -114,6 +114,8 @@ En este documento, se describe el proceso de implementación de un servidor de s
 
      ![Imagen de configuración de VLC](./8.png)
 
+     ![Imagen de configuración de VLC](./13.png)
+     
 > **💡 Nota:**  
 > Reemplaza `localhost` con la dirección IP pública de tu instancia AWS EC2 si estás probando desde una máquina remota. Asegúrate de que el comando FFmpeg coincida con los requisitos de tu streaming.
 

@@ -8,22 +8,22 @@ En este documento, se describe el proceso de implementación de un servidor de s
 
 ### 1. **Preparación del software necesario**  
    - Instancia de Ubuntu Server 20.04/22.04 (tipo t2.large o c5)  
-     ![Imagen de configuración de la instancia](../pick/1.png)
+     ![Imagen de configuración de la instancia](./a.png)
 
      - Configuración del grupo de seguridad para permitir los puertos necesarios:
        - TCP 22 (SSH)
        - TCP 8000 (predeterminado de Icecast)
        - Puertos UDP para streaming  
-       ![Imagen de configuración de puertos](../pick/4.png)
+       ![Imagen de configuración de puertos](./d.png)
 
      - Configuración de un nuevo par de claves  
-       ![Imagen de configuración de claves](../pick/2.png)
+       ![Imagen de configuración de claves](./b.png)
 
    - Configuración inicial del servidor:
      - Conexión a la instancia mediante SSH utilizando el par de claves  
      - Actualización de los paquetes del sistema para la descarga  
      - Instalación de herramientas de monitoreo: `vnstat` y `iperf3`  
-       ![Imagen de actualización de paquetes](../pick/6.png)
+       ![Imagen de actualización de paquetes](./f.png)
 
 ---
 
@@ -67,14 +67,14 @@ En este documento, se describe el proceso de implementación de un servidor de s
      sudo ufw allow 22/tcp
      sudo ufw enable
      ```
-     ![Imagen de configuración de puertos](../pick/13.png)
+     ![Imagen de configuración de puertos](./m.png)
 
    - Reinicié Icecast2:
      ```bash
      sudo systemctl restart icecast2
      sudo systemctl enable icecast2
      ```
-     ![Imagen de reinicio de Icecast2](../pick/13.png)
+     ![Imagen de reinicio de Icecast2](./g.png)
 
 ---
 
@@ -83,12 +83,12 @@ En este documento, se describe el proceso de implementación de un servidor de s
      ```bash
      scp -i nuevo_key.pem test.mp3 ubuntu@ec2-public-ip:/home/ubuntu/
      ```
-     ![Imagen de subida de archivo](../pick/19.png)
+     ![Imagen de subida de archivo](./r.png)
 
-     ![Imagen de configuración de puertos](../pick/17.png)
+     ![Imagen de configuración de puertos](./p.png)
 
    - Comprobación desde AWS:  
-     ![Imagen de comprobación desde AWS](../pick/20.png)
+     ![Imagen de comprobación desde AWS](./s.png)
 
 > **💡 Nota:**  
 > Asegúrate de que el archivo `nuevo_key.pem` esté almacenado de forma segura y tenga los permisos correctos (`chmod 400 nuevo_key.pem`) para evitar problemas de acceso. Reemplaza `ec2-public-ip` con la dirección IP pública real de tu instancia AWS EC2.
@@ -102,10 +102,10 @@ En este documento, se describe el proceso de implementación de un servidor de s
      ```bash
      icecast://source:sourcepass@localhost:8000/admin/
      ```
-     ![Imagen de prueba de Icecast2](../pick/10.png)
+     ![Imagen de prueba de Icecast2](./j.png)
 
    - Dentro de Icecast, puedes ver la lista de oyentes si el audio se está transmitiendo correctamente.  
-     ![Imagen de lista de oyentes](../pick/11.png)
+     ![Imagen de lista de oyentes](./k.png)
 
 > **💡 Nota:**  
 > Asegúrate de que las contraseñas (`source-password` y `admin-password`) utilizadas en la configuración de Icecast2 coincidan con las credenciales que configuraste en el archivo `/etc/icecast2/icecast.xml`. Además, verifica que el servicio de Icecast2 esté funcionando y que las reglas del firewall permitan el acceso al puerto `8000`. En lugar de usar `localhost`, utiliza la IP de tu instancia.
@@ -117,9 +117,9 @@ En este documento, se describe el proceso de implementación de un servidor de s
      ```bash
      ffmpeg -re -i test.mp3 -vn -c:a libmp3lame -f mp3 icecast://source:sourcepass@localhost:8000/stream
      ```
-     ![Imagen de prueba del stream](../pick/12.png)
+     ![Imagen de prueba del stream](./l.png)
 
-     ![Imagen de prueba del stream](../pick/14.png)
+     ![Imagen de prueba del stream](./n.png)
 
 > **💡 Nota:**  
 > Asegúrate de que el archivo `test.mp3` esté subido al directorio correcto en tu servidor y que el servicio de Icecast2 esté funcionando. Reemplaza `localhost` con la dirección IP pública de tu instancia AWS EC2 si estás probando desde una máquina remota. Asegúrate de que las contraseñas (`source-password` y `admin-password`) utilizadas en la configuración de Icecast2 coincidan con las credenciales que configuraste en el archivo `/etc/icecast2/icecast.xml`.
@@ -133,7 +133,7 @@ En este documento, se describe el proceso de implementación de un servidor de s
      ```bash
      vnstat -h
      ```
-     ![Imagen de monitoreo de ancho de banda](../pick/15.png)
+     ![Imagen de monitoreo de ancho de banda](./o.png)
 
 ---
 
