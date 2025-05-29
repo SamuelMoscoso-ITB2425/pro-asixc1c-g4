@@ -183,21 +183,49 @@ El inversor de energía irá dentro de un gabinete NEMA 3R por estar en el exter
 El cableado del ATS a los UPS/SAIS contaría como cableado vertical (hay que preguntar si este cableado también hay que tenerlo en cuenta).
 
 # TECHO Y SUELO
-En la sala hay una normativa a seguir donde se especifica la necesidad de instalar y asegurar un suelo técnico que permita:
+En la sala del CPD existe una normativa específica que exige la instalación y correcto aseguramiento de un suelo técnico. Este tipo de suelo elevado es fundamental para el funcionamiento seguro, eficiente y flexible del centro de datos, y ofrece múltiples ventajas:
 
-- **Gestionar el cableado** → El espacio bajo el suelo elevado (plénum) permite distribuir y organizar cables de red, fibra óptica y alimentación eléctrica de forma ordenada, segura y accesible. Así se evitan enredos y se facilita el mantenimiento o futuras ampliaciones.
+## Suelo
+### 1. Gestión y Organización del Cableado
 
-- **Distribución** → El suelo técnico permite canalizar aire frío directamente hacia los racks o equipos, optimizando la refrigeración y reduciendo puntos calientes. Esto es clave para mantener la temperatura adecuada y la eficiencia energética.
+El espacio bajo el suelo técnico (plénum) permite distribuir y organizar de manera ordenada todos los cables de red, fibra óptica y alimentación eléctrica.
 
+**Ventajas**:
+- Se evitan enredos y cruces peligrosos de cables.
+- Se reduce el riesgo de accidentes o interferencias electromagnéticas.
+- Facilita el acceso para mantenimiento, inspección o futuras ampliaciones, ya que los técnicos pueden localizar y modificar fácilmente cualquier tramo de cableado sin interrumpir la operativa del CPD.
+- Permite la identificación y separación clara entre cableado de datos, energía y sistemas críticos, cumpliendo con las normativas de seguridad y buenas prácticas TI.
 
-- **Soporte estructural** → Está diseñado para soportar el peso de racks de alta densidad, UPS, y otros equipos pesados, garantizando la seguridad y estabilidad del CPD.
+### 2. Distribución de Aire y Tuberías de Refrigeración
+El suelo técnico no solo sirve para el cableado, sino que también permite canalizar aire frío directamente hacia los racks y equipos a través de rejillas o difusores instalados en los paneles.
 
-- **Mantenimiento** → Los paneles modulares permiten acceder fácilmente a cualquier punto bajo el suelo para inspección, reparación o cambios, sin interrumpir la operación del CPD.
+**Ventajas**:
+ -Optimiza la refrigeración, asegurando que el aire frío llegue de forma eficiente a los puntos de mayor demanda térmica.
+ Ayuda a evitar la formación de puntos calientes, lo que es esencial para mantener la temperatura adecuada y garantizar la eficiencia energética.
+- Además, bajo el suelo hemos insalado tuberías aisladas para la circulación de agua fría o refrigerante, necesarias en sistemas de refrigeración líquida (chillers o CRAH). Estas tuberías están protegidas y accesibles para su revisión o reparación, minimizando riesgos de fugas o daños accidentales.
+  
+### 3. Soporte Estructural
+El suelo técnico está diseñado y certificado para soportar grandes cargas, incluyendo racks de alta densidad, sistemas UPS, baterías y otros equipos pesados.
 
+**Ventajas**:
+- Garantiza la seguridad y estabilidad de la infraestructura.
+- Permite distribuir el peso de forma uniforme, evitando daños en la estructura original del edificio.
 
+### 4. Facilidad de Mantenimiento
+Los paneles modulares del suelo técnico se pueden levantar individualmente, permitiendo acceder rápidamente a cualquier punto bajo el suelo para inspección, reparación o cambios de cableado, tuberías o sensores.
+
+**Ventajas**:
+- Se pueden realizar intervenciones sin interrumpir la operación del CPD.
+- Reduce los tiempos de parada y facilita la adaptación a nuevas necesidades tecnológicas.
+
+## Techo Suspendido
 De la misma manera que un suelo, un techo suspendido también ayuda y facilita al funcionamiento del CPD:
 
-- **Mantenimiento** → Al igual que el suelo técnico, el techo modular permite acceder rápidamente a instalaciones superiores para reparaciones o ampliaciones.
+Permite ocultar y organizar cableados superiores, bandejas de fibra óptica, conductos de ventilación y sistemas de detección de incendios.
+
+Facilita el acceso rápido para tareas de mantenimiento, ampliaciones o instalación de nuevos sistemas.
+
+Mejora la estética y la limpieza del entorno, contribuyendo a un ambiente más controlado y profesional.
 
 
 Otras características que hemos tenido en cuenta en la estructura de la habitación es él [ruido](./ruido.md) que provocan los CPD, para solucionar este problema se han instalado unos [bafles acústicos absorbentes](./bafles.md) que insonorizan la sala.
