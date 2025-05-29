@@ -1,4 +1,4 @@
-#SOSTENIBILIDAD
+# SOSTENIBILIDAD
 La sostenibilidad y la eficiencia energética son pilares fundamentales en el diseño y la gestión de nuestro CPD. 
 El objetivo es minimizar el impacto ambiental, optimizar el uso de recursos y garantizar la máxima eficiencia operativa, sin comprometer la calidad ni la seguridad del servicio.
 
