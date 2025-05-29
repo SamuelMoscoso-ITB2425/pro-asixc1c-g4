@@ -146,11 +146,43 @@ Alguna de las medidas que hemos establecido son:
 
 
 # CABLEADO
-EXPLICAR LA DISTRIBUCIÓN DEL CABLEADO, EL TIPO, COMO LOS HEMOS DITRIBUIDO, DONDE ESTAN LAS TOMAS DE LUZ...
+### Conexión y Filtrado de Tráfico
+
+Conectaremos el router que tenemos en la sala de empleados a los firewall de nuestros racks de comunicación. Todo el tráfico pasará primero por el firewall para que este filtre el tráfico y así evitar ataques o infiltraciones a nuestro CPD.
+
+Para tener algo de redundancia y maximizar el ancho de banda conectaremos uno de los firewall con el otro firewall mediante un cable de fibra óptica del puerto HA al HA del otro dispositivo y los pondremos en modo active-active. Esto lo que hará es que los dos procesen el tráfico y que no lo haga uno solo; si uno falla, el otro toma el 100 % del tráfico automáticamente, y las conexiones activas no se pierden.
+
+A continuación, conectaremos el firewall del puerto 37 al 36 del switch.
+
+### Segmentación y Organización de Red
+
+Configuraremos el router para tener diferentes VLANs y separar el tráfico de los empleados con el de nuestro CPD.
+
+Después de haber filtrado el tráfico de la red para los switches de nuestro CPD, conectaremos este a los puertos permanentes 1-8 del patch panel. A su vez, haremos lo mismo con los patch panel de los servidores; podemos conectar cada servidor a 2 puertos diferentes gracias a que la tarjeta de red que tienen dispone de dos puertos. Para obtener redundancia por parte de los switches por si alguna falla, conectaremos los dos switches al mismo servidor.
+
+Para diferenciar los cables conectados en el patch panel escogemos un color en concreto para cada dispositivo, poner una codificación alfanumérica en cada puerto para saber qué dispositivo se encuentra conectado o también está la posibilidad de hacer las dos al mismo tiempo.
+
+### Alimentación y Redundancia Eléctrica
+
+La corriente que recibirán los SAIS/UPS será de corriente normal. A su vez, los UPS/SAIS de uno de cada uno de los dos tipos de racks que tenemos recibirán energía alterna proporcionada por paneles solares.
+
+Para que a los racks les llegue la energía alterna que conectan nuestros paneles solares Longi Hi-MO 5 400W al controlador de carga, primero tendremos que unir los ramales en el combiner box. Para la salida de este, los + pasarán por sus fusibles y luego se unirán a una barra colectora principal; los - se unen a una barra colectora, luego se conectarán al controlador de carga mediante un cable + 6 AWG al + del controlador y del negativo lo mismo.
+
+A continuación, conectaremos el controlador de carga a las baterías mediante cables 1/0 AWG del positivo al positivo y del negativo al negativo. Instalaremos un fusible clase T en el lado positivo más cercano a la batería.
+
+Para conectar las baterías al inversor híbrido, tendremos que conectar los polos positivo y negativo a su busbar correspondiente por cables USE-2 2/0 AWG. Luego llevamos un cable + al breaker DC 125 para después conectarlo al + del inversor; los - irán directamente al inversor.
+
+Conectaremos el inversor al ATS Generic Smart Transfer Switch (RXSW200A3) por cable THHN 10 AWG a la fuente 2, ya que este será la opción por si el 1 falla. Para finalizar, conectaremos el ATS por el puerto de salida a la entrada IEC 309 de los UPS/SAIS mediante un cable THHN 10 AWG.
+
+Para la fuente principal de alimentación de los UPS/SAIS, conectaremos al cuadro eléctrico principal un breaker de 32A y a este le conectaremos el cable THHN 10 AWG a la fuente 1 del ATS.
+
+Conectaremos el inversor híbrido a la red y lo pondremos en modo Solar First y ajuste de umbrales para que la red cargue las baterías si están a menos de 30%. Esto lo hacemos por si no hay suficiente luz, el inversor cargará las baterías para que estas tengan siempre carga por si ocurre algún fallo. Para conectar el inversor híbrido al cuadro eléctrico, este tendrá que tener primero un breaker magnetotérmico; después conectaremos el cuadro eléctrico a la entrada AC-IN del inversor mediante un cable 6 AWG.
+
+El inversor de energía irá dentro de un gabinete NEMA 3R por estar en el exterior y evitar daños por lluvias.
+
+El cableado del ATS a los UPS/SAIS contaría como cableado vertical (hay que preguntar si este cableado también hay que tenerlo en cuenta).
 
 # TECHO Y SUELO
-EXPLICAR MEJOR....
-
 En la sala hay una normativa a seguir donde se especifica la necesidad de instalar y asegurar un suelo técnico que permita:
 
 - **Gestionar el cableado** → El espacio bajo el suelo elevado (plénum) permite distribuir y organizar cables de red, fibra óptica y alimentación eléctrica de forma ordenada, segura y accesible. Así se evitan enredos y se facilita el mantenimiento o futuras ampliaciones.
