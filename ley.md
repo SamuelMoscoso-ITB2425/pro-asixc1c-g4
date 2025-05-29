@@ -1,7 +1,7 @@
 # 3. Legislación y cumplimiento del convenio colectivo
 El diseño de nuestra estructura responde a las especificaciones del Convenio colectivo estatal del sector, que hemos consultado en el BOE (BOE-A-2025-7766).
 
-✔Atributos clave definidos por el convenio
+Atributos clave definidos por el convenio
 Para la tabla grupo-nivel, hemos definido atributos en base a lo estipulado legalmente:
 
 - **Salario**: Salario bruto anual correspondiente al grupo-nivell.
