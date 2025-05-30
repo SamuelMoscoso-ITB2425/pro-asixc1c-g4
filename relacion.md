@@ -9,7 +9,7 @@ Nuestra base de datos se compone de tres tablas principales: empleados, departam
 
 - Una categoría profesional (grupo-nivell) puede corresponder a muchos empleados (relación 1:N). La relación se refleja en el campo codigo_n de la tabla empleados, que es clave foránea hacia categoria(CODI).
 
-![Diagrama]()
+![Diagrama](./imagenes/Diagrama/diagrama.png)
 
 
 Codigo_d = hacer referncia a la clave identificativa de departamento
