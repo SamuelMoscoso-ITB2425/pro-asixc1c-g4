@@ -243,6 +243,7 @@ PLANOS:
     ![PLANOS](./imagenes/Planos/plano_sc.png)
 
     ![PLANOS](./imagenes/Planos/plano_tc.png)
+    
 # RACKS
 
 En nuestra sala técnica, contamos con una infraestructura organizada y escalable basada en racks estándar. La instalación actual está compuesta por 4 racks de 42U, distribuidos por función y capacidad.
