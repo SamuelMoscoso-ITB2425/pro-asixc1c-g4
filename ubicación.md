@@ -136,7 +136,7 @@ Alguna de las medidas que hemos establecido son:
 
     Tras pasar esta primera puerta, se accede a la puerta principal de CPD la cual cuenta  con unas medidas de seguridad que se detallarán más adelante.
 
-    ![FOTO](./)
+    ![FOTO](./imagenes/Puertas.png)
 
 - **Mapas** → Se evita incluir la ubicación del CPD en planos accesibles tanto para empleados como para el público general. 
 
@@ -236,12 +236,7 @@ Para facilitar la pureza del aire se pintan las paredes de pintura plástica par
 
 PLANOS:
 
-![PLANOS](./imagenes/Planos/plano_t.png)
-
-![PLANOS](./imagenes/Planos/plano_sc.png)
-
-![PLANOS](./imagenes/Planos/plano_tc.png)
-
+![PLANOS]
 
 # RACKS
 
