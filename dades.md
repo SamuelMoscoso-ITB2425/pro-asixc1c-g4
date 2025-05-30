@@ -70,54 +70,54 @@ sudo /usr/pgadmin4/bin/setup-web.sh
 
 7. Nos metermos al pgAdmin4 mediante la ip publica de la instacia:
 
-![Install] (./imagenes/Base/Ip.png)
+![Install](./imagenes/Base/Ip.png)
 
-![Install] (./imagenes/Base/PI.png)
+![Install](./imagenes/Base/PI.png)
 
 8. Añadiremos un servidor dandole a: 
 
-![Install] (./imagenes/Base/server.png)
+![Install](./imagenes/Base/server.png)
 
-![Install] (./imagenes/Base/nombre.png)
+![Install](./imagenes/Base/nombre.png)
 
-![Install] (./imagenes/Base/local.png)
+![Install](./imagenes/Base/local.png)
 
 9. Una vez ya dentro crearemos las tablas, crearemos los usuarios y definiremos los roles que tendran:
 
 ```bash
 Creacion de usuarios
 ```
-![Install] (./imagenes/Base/base.png)
+![Install](./imagenes/Base/base.png)
 
 ```bash
 Creacion de los roles
 ```
-![Install] (./imagenes/Base/roles.png)
+![Install](./imagenes/Base/roles.png)
 
 ```bash
 Crearemos los usuarios y le añadiremos los roles
 ```
-![Install] (./imagenes/Base/users.png)
+![Install](./imagenes/Base/users.png)
 
 10. Comprobamos los permisos de los usuarios:
 
-![Install] (./imagenes/Base/r.png)
+![Install](./imagenes/Base/r.png)
 
 ```bash
 El usuario recursos_humanos no tiene permisos ni en categoria ni en departamento
 ```
-![Install] (./imagenes/Base/insert.png)
+![Install](./imagenes/Base/insert.png)
 
-![Install] (./imagenes/Base/insert1.png)
+![Install](./imagenes/Base/insert1.png)
 
-![Install] (./imagenes/Base/insert2.png)
+![Install](./imagenes/Base/insert2.png)
 
 ```bash
 El usuario administracion tiene permisos de todo en las tablas
 ```
 
-![Install] (./imagenes/Base/ainsert.png)
+![Install](./imagenes/Base/ainsert.png)
 
-![Install] (./imagenes/Base/ainsert1.png)
+![Install](./imagenes/Base/ainsert1.png)
 
-![Install] (./imagenes/Base/delete.png)
+![Install](./imagenes/Base/delete.png)
