@@ -236,21 +236,21 @@ Para facilitar la pureza del aire se pintan las paredes de pintura plástica par
 
 PLANOS:
 
-    ![PLANOS](./imagenes/Planos/plano_s.png)
+![PLANOS](./imagenes/Planos/plano_s.png)
 
-    ![PLANOS](./imagenes/Planos/plano_t.png)
+![PLANOS](./imagenes/Planos/plano_t.png)
 
-    ![PLANOS](./imagenes/Planos/plano_sc.png)
+![PLANOS](./imagenes/Planos/plano_sc.png)
 
-    ![PLANOS](./imagenes/Planos/plano_tc.png)
+![PLANOS](./imagenes/Planos/plano_tc.png)
 
 
 # RACKS
--
-    ![PLANOS](./imagenes/Planos/RC.png)
 
-    ![PLANOS](./imagenes/Planos/RS.png)
--
+![PLANOS](./imagenes/Planos/RC.png)
+
+![PLANOS](./imagenes/Planos/RS.png)
+
 
 
 En nuestra sala técnica, contamos con una infraestructura organizada y escalable basada en racks estándar. La instalación actual está compuesta por 4 racks de 42U, distribuidos por función y capacidad.
