@@ -51,15 +51,15 @@ Ubicación:
 
 Planos:
 
-![Planos del edificio](./imagenes/edificio.png)
+![Planos del edificio](./imagenes/Planos/plano_s.png)
 
-![Planos de la planta](./imagenes/planta.png)
+![Planos de la planta](./imagenes/Planos/plano_s.png)
 
-![Planos de la sala](./imagenes/sala.png)
+![Planos de la sala](./imagenes/CPD.png)
 
 ![Visualización 3D](./imagenes/3D.png)
 
-En estas imagenes podemos observar la distribución de nuestro CDP...
+En estas imagenes podemos observar la distribución de nuestro CPD...
 
 # CLIMATIZACIÓN
 
@@ -235,8 +235,6 @@ Para facilitar la pureza del aire se pintan las paredes de pintura plástica par
 
 
 PLANOS:
-
-![PLANOS](./imagenes/Planos/plano_s.png)
 
 ![PLANOS](./imagenes/Planos/plano_t.png)
 
