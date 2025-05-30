@@ -235,7 +235,7 @@ Para facilitar la pureza del aire se pintan las paredes de pintura plástica par
 
 
 PLANOS:
--
+
     ![PLANOS](./imagenes/Planos/plano_s.png)
 
     ![PLANOS](./imagenes/Planos/plano_t.png)
@@ -244,7 +244,7 @@ PLANOS:
 
     ![PLANOS](./imagenes/Planos/plano_tc.png)
 
--
+
 # RACKS
 -
     ![PLANOS](./imagenes/Planos/RC.png)
