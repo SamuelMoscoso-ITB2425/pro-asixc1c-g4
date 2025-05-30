@@ -267,7 +267,7 @@ La comunicación es otro factor clave, si un incendio empeza en una zona apartad
 
 A parte de la alarma creemos que un un sistema de megafonia también ayuda a  la organización.
 
-![Planos de evacuación](./)
+![Planos de evacuación](./imagenes/Planos/Exit.png)
 
 # RIESGOS NATURALES  
 

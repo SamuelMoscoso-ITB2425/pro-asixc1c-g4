@@ -61,4 +61,11 @@ Racks estándar de 42U:
 - U 21–42: Espacio para equipos de expansión, UPS, gestión y cableado estructurado
 
 Cada rack está cableado siguiendo el esquema lógico y físico documentado en los diagramas de red y planta, asegurando accesibilidad, redundancia y facilidad de mantenimiento.
+
 # PLANOS
+
+![PLANOS](./imagenes/Planos/RC.png)
+
+![PLANOS](./imagenes/Planos/RS.png)
+
+![PLANOS](./imagenes/Planos/Cableado_RACK.png)

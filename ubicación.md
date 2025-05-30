@@ -53,8 +53,6 @@ Planos:
 
 ![Planos del edificio](./imagenes/Planos/plano_s.png)
 
-![Planos de la planta](./imagenes/Planos/plano_s.png)
-
 ![Planos de la sala](./imagenes/CPD.png)
 
 ![Visualización 3D](./imagenes/3D.png)
